@@ -57,6 +57,8 @@ using namespace std;
 
 #define RESIPROCATE_SUBSYSTEM Subsystem::SIP
 
+#define RESIP_SSL_VERIFY SSL_VERIFY_NONE // SSL_VERIFY_CLIENT_ONCE|SSL_VERIFY_PEER
+
 static const Data PEM(".pem");
 
 static const Data rootCert("root_cert_");
@@ -309,7 +311,7 @@ Security::createDomainCtx(const SSL_METHOD* method, const Data& domain, const Da
       }
    }
 
-   SSL_CTX_set_verify(ctx, SSL_VERIFY_PEER|SSL_VERIFY_CLIENT_ONCE, verifyCallback);
+   SSL_CTX_set_verify(ctx, RESIP_SSL_VERIFY, verifyCallback);
    SSL_CTX_set_cipher_list(ctx, mCipherList.cipherList().c_str());
 
    return ctx;
@@ -996,14 +998,14 @@ BaseSecurity::BaseSecurity (const CipherList& cipherSuite) :
    assert(mTlsCtx);
 
    SSL_CTX_set_cert_store(mTlsCtx, mRootTlsCerts);
-   SSL_CTX_set_verify(mTlsCtx, SSL_VERIFY_PEER|SSL_VERIFY_CLIENT_ONCE, verifyCallback);
+   SSL_CTX_set_verify(mTlsCtx, RESIP_SSL_VERIFY, verifyCallback);
    ret = SSL_CTX_set_cipher_list(mTlsCtx, cipherSuite.cipherList().c_str());
    assert(ret);
    
    mSslCtx = SSL_CTX_new( SSLv23_method() );
    assert(mSslCtx);
    SSL_CTX_set_cert_store(mSslCtx, mRootSslCerts);
-   SSL_CTX_set_verify(mSslCtx, SSL_VERIFY_PEER|SSL_VERIFY_CLIENT_ONCE, verifyCallback);
+   SSL_CTX_set_verify(mSslCtx, RESIP_SSL_VERIFY, verifyCallback);
    ret = SSL_CTX_set_cipher_list(mSslCtx,cipherSuite.cipherList().c_str());
    assert(ret);
 }

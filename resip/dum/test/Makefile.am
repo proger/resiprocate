@@ -18,7 +18,7 @@ TESTS += BasicCall
 TESTS += basicMessage
 # The basicClient test case doesn't seem to run without user interaction,
 # so it is not run automatically
-#TESTS += basicClient
+TESTS += basicClient
 TESTS += testRequestValidationHandler
 
 check_PROGRAMS = \

@@ -137,6 +137,7 @@ BasicClientUserAgent::BasicClientUserAgent(int argc, char** argv) :
       AresDns::enableHostFileLookupOnlyMode(true);
    }
 
+#if 0
    addTransport(UDP, mUdpPort);
    addTransport(TCP, mTcpPort);
 #if defined(USE_SSL)
@@ -145,9 +146,13 @@ BasicClientUserAgent::BasicClientUserAgent(int argc, char** argv) :
 #if defined(USE_DTLS)
    addTransport(DTLS, mDtlsPort);
 #endif
+#else
+#if defined(USE_SSL)
+   addTransport(TLS, mTlsPort);
+#endif
+#endif
 
-   // Disable Statistics Manager
-   mStack->statisticsManagerEnabled() = false;
+   mStack->statisticsManagerEnabled() = true;
 
    // Supported Methods
    mProfile->clearSupportedMethods();
@@ -246,6 +251,11 @@ BasicClientUserAgent::BasicClientUserAgent(int argc, char** argv) :
 
    // UserProfile Settings
    mProfile->setDefaultFrom(NameAddr(mAor));
+
+//#define DIGEST_REALM mAor.host()
+#define DIGEST_REALM "asterisk"
+//#define DIGEST_REALM Data::Empty
+
 #ifdef TEST_PASSING_A1_HASH_FOR_PASSWORD
    MD5Stream a1;
    a1 << mAor.user()
@@ -253,9 +263,9 @@ BasicClientUserAgent::BasicClientUserAgent(int argc, char** argv) :
       << mAor.host()
       << Symbols::COLON
       << mPassword;
-   mProfile->setDigestCredential(mAor.host(), mAor.user(), a1.getHex(), true);   
+   mProfile->setDigestCredential(DIGEST_REALM, mAor.user(), a1.getHex(), true);   
 #else
-   mProfile->setDigestCredential(mAor.host(), mAor.user(), mPassword);   
+   mProfile->setDigestCredential(DIGEST_REALM, mAor.user(), mPassword);   
 #endif
    // Generate InstanceId appropriate for testing only.  Should be UUID that persists 
    // across machine re-starts and is unique to this applicaiton instance.  The one used 
@@ -414,7 +424,7 @@ BasicClientUserAgent::addTransport(TransportType type, int port)
       {
          if (!mNoV4)
          {
-            mStack->addTransport(type, port+i, V4, StunEnabled, Data::Empty, mTlsDomain);
+            mStack->addTransport(type, port+i, V4, StunEnabled, Data::Empty, mTlsDomain, Data::Empty, SecurityTypes::TLSv1, 0, "", "", SecurityTypes::None);
             return;
          }
 

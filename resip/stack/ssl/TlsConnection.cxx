@@ -680,9 +680,13 @@ TlsConnection::computePeerName()
    // check that this certificate is valid 
    if (X509_V_OK != SSL_get_verify_result(mSsl))
    {
+#if 1
+      DebugLog(<< "Peer certificate in TLS connection is not valid (WARNING: I AM IGNORING THIS)" );
+#else
       DebugLog(<< "Peer certificate in TLS connection is not valid" );
       X509_free(cert); cert=NULL;
       return;
+#endif
    }
 
    TlsBaseTransport *t = dynamic_cast<TlsBaseTransport*>(mTransport);
