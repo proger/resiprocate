@@ -650,28 +650,28 @@
 		123B4D52089871F70049A5B9 /* IdentityHandler.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IdentityHandler.cxx; path = dum/IdentityHandler.cxx; sourceTree = "<group>"; };
 		123B4D54089872040049A5B9 /* EncryptionRequest.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = EncryptionRequest.cxx; path = dum/EncryptionRequest.cxx; sourceTree = "<group>"; };
 		123B4D560898721D0049A5B9 /* DumFeatureMessage.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = DumFeatureMessage.cxx; path = dum/DumFeatureMessage.cxx; sourceTree = "<group>"; };
-		124D789C086CC36600BCA5A9 /* ares__close_sockets.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares__close_sockets.c; path = ../contrib/ares/ares__close_sockets.c; sourceTree = SOURCE_ROOT; };
-		124D789D086CC36600BCA5A9 /* ares__get_hostent.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares__get_hostent.c; path = ../contrib/ares/ares__get_hostent.c; sourceTree = SOURCE_ROOT; };
-		124D789E086CC36600BCA5A9 /* ares__read_line.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares__read_line.c; path = ../contrib/ares/ares__read_line.c; sourceTree = SOURCE_ROOT; };
-		124D789F086CC36600BCA5A9 /* ares_destroy.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_destroy.c; path = ../contrib/ares/ares_destroy.c; sourceTree = SOURCE_ROOT; };
-		124D78A0086CC36600BCA5A9 /* ares_expand_name.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_expand_name.c; path = ../contrib/ares/ares_expand_name.c; sourceTree = SOURCE_ROOT; };
-		124D78A1086CC36600BCA5A9 /* ares_fds.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_fds.c; path = ../contrib/ares/ares_fds.c; sourceTree = SOURCE_ROOT; };
-		124D78A2086CC36600BCA5A9 /* ares_free_errmem.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_free_errmem.c; path = ../contrib/ares/ares_free_errmem.c; sourceTree = SOURCE_ROOT; };
-		124D78A3086CC36600BCA5A9 /* ares_free_hostent.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_free_hostent.c; path = ../contrib/ares/ares_free_hostent.c; sourceTree = SOURCE_ROOT; };
-		124D78A4086CC36600BCA5A9 /* ares_free_string.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_free_string.c; path = ../contrib/ares/ares_free_string.c; sourceTree = SOURCE_ROOT; };
-		124D78A5086CC36600BCA5A9 /* ares_gethostbyaddr.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_gethostbyaddr.c; path = ../contrib/ares/ares_gethostbyaddr.c; sourceTree = SOURCE_ROOT; };
-		124D78A6086CC36600BCA5A9 /* ares_gethostbyname.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_gethostbyname.c; path = ../contrib/ares/ares_gethostbyname.c; sourceTree = SOURCE_ROOT; };
-		124D78A7086CC36600BCA5A9 /* ares_init.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_init.c; path = ../contrib/ares/ares_init.c; sourceTree = SOURCE_ROOT; };
-		124D78A8086CC36600BCA5A9 /* ares_local.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_local.c; path = ../contrib/ares/ares_local.c; sourceTree = SOURCE_ROOT; };
-		124D78A9086CC36600BCA5A9 /* ares_mkquery.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_mkquery.c; path = ../contrib/ares/ares_mkquery.c; sourceTree = SOURCE_ROOT; };
-		124D78AA086CC36600BCA5A9 /* ares_parse_a_reply.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_parse_a_reply.c; path = ../contrib/ares/ares_parse_a_reply.c; sourceTree = SOURCE_ROOT; };
-		124D78AB086CC36600BCA5A9 /* ares_parse_ptr_reply.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_parse_ptr_reply.c; path = ../contrib/ares/ares_parse_ptr_reply.c; sourceTree = SOURCE_ROOT; };
-		124D78AC086CC36600BCA5A9 /* ares_process.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_process.c; path = ../contrib/ares/ares_process.c; sourceTree = SOURCE_ROOT; };
-		124D78AD086CC36600BCA5A9 /* ares_query.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_query.c; path = ../contrib/ares/ares_query.c; sourceTree = SOURCE_ROOT; };
-		124D78AE086CC36600BCA5A9 /* ares_search.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_search.c; path = ../contrib/ares/ares_search.c; sourceTree = SOURCE_ROOT; };
-		124D78AF086CC36600BCA5A9 /* ares_send.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_send.c; path = ../contrib/ares/ares_send.c; sourceTree = SOURCE_ROOT; };
-		124D78B0086CC36600BCA5A9 /* ares_strerror.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_strerror.c; path = ../contrib/ares/ares_strerror.c; sourceTree = SOURCE_ROOT; };
-		124D78B1086CC36600BCA5A9 /* ares_timeout.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_timeout.c; path = ../contrib/ares/ares_timeout.c; sourceTree = SOURCE_ROOT; };
+		124D789C086CC36600BCA5A9 /* ares__close_sockets.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares__close_sockets.c; sourceTree = "<group>"; };
+		124D789D086CC36600BCA5A9 /* ares__get_hostent.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares__get_hostent.c; sourceTree = "<group>"; };
+		124D789E086CC36600BCA5A9 /* ares__read_line.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares__read_line.c; sourceTree = "<group>"; };
+		124D789F086CC36600BCA5A9 /* ares_destroy.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_destroy.c; sourceTree = "<group>"; };
+		124D78A0086CC36600BCA5A9 /* ares_expand_name.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_expand_name.c; sourceTree = "<group>"; };
+		124D78A1086CC36600BCA5A9 /* ares_fds.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_fds.c; sourceTree = "<group>"; };
+		124D78A2086CC36600BCA5A9 /* ares_free_errmem.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_free_errmem.c; sourceTree = "<group>"; };
+		124D78A3086CC36600BCA5A9 /* ares_free_hostent.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_free_hostent.c; sourceTree = "<group>"; };
+		124D78A4086CC36600BCA5A9 /* ares_free_string.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_free_string.c; sourceTree = "<group>"; };
+		124D78A5086CC36600BCA5A9 /* ares_gethostbyaddr.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_gethostbyaddr.c; sourceTree = "<group>"; };
+		124D78A6086CC36600BCA5A9 /* ares_gethostbyname.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_gethostbyname.c; sourceTree = "<group>"; };
+		124D78A7086CC36600BCA5A9 /* ares_init.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_init.c; sourceTree = "<group>"; };
+		124D78A8086CC36600BCA5A9 /* ares_local.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_local.c; sourceTree = "<group>"; };
+		124D78A9086CC36600BCA5A9 /* ares_mkquery.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_mkquery.c; sourceTree = "<group>"; };
+		124D78AA086CC36600BCA5A9 /* ares_parse_a_reply.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_parse_a_reply.c; sourceTree = "<group>"; };
+		124D78AB086CC36600BCA5A9 /* ares_parse_ptr_reply.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_parse_ptr_reply.c; sourceTree = "<group>"; };
+		124D78AC086CC36600BCA5A9 /* ares_process.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_process.c; sourceTree = "<group>"; };
+		124D78AD086CC36600BCA5A9 /* ares_query.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_query.c; sourceTree = "<group>"; };
+		124D78AE086CC36600BCA5A9 /* ares_search.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_search.c; sourceTree = "<group>"; };
+		124D78AF086CC36600BCA5A9 /* ares_send.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_send.c; sourceTree = "<group>"; };
+		124D78B0086CC36600BCA5A9 /* ares_strerror.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_strerror.c; sourceTree = "<group>"; };
+		124D78B1086CC36600BCA5A9 /* ares_timeout.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ares_timeout.c; sourceTree = "<group>"; };
 		124D78CA086CC3CE00BCA5A9 /* ApiCheck.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ApiCheck.cxx; path = stack/ApiCheck.cxx; sourceTree = "<group>"; };
 		124D78CB086CC3CE00BCA5A9 /* AresDns.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AresDns.cxx; path = ../rutil/dns/AresDns.cxx; sourceTree = "<group>"; };
 		124D78CC086CC3CE00BCA5A9 /* Auth.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Auth.cxx; path = stack/Auth.cxx; sourceTree = "<group>"; };
@@ -721,7 +721,7 @@
 		124D78F8086CC3CE00BCA5A9 /* NameAddr.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = NameAddr.cxx; path = stack/NameAddr.cxx; sourceTree = "<group>"; };
 		124D78F9086CC3CE00BCA5A9 /* OctetContents.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = OctetContents.cxx; path = stack/OctetContents.cxx; sourceTree = "<group>"; };
 		124D78FA086CC3CE00BCA5A9 /* Parameter.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Parameter.cxx; path = stack/Parameter.cxx; sourceTree = "<group>"; };
-		124D78FB086CC3CE00BCA5A9 /* ParameterHash.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ParameterHash.cxx; path = stack/ParameterHash.cxx; sourceTree = "<group>"; };
+		124D78FB086CC3CE00BCA5A9 /* ParameterHash.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = folder; name = ParameterHash.cxx; path = stack/ParameterHash.cxx; sourceTree = "<group>"; };
 		124D78FC086CC3CE00BCA5A9 /* ParameterTypes.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ParameterTypes.cxx; path = stack/ParameterTypes.cxx; sourceTree = "<group>"; };
 		124D78FD086CC3CE00BCA5A9 /* ParserCategories.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ParserCategories.cxx; path = stack/ParserCategories.cxx; sourceTree = "<group>"; };
 		124D78FE086CC3CE00BCA5A9 /* ParserCategory.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ParserCategory.cxx; path = stack/ParserCategory.cxx; sourceTree = "<group>"; };
@@ -1009,10 +1009,10 @@
 		F8DB1D1E0C56B9B800853E27 /* UsageUseException.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = UsageUseException.hxx; path = dum/UsageUseException.hxx; sourceTree = "<group>"; };
 		F8DB1D1F0C56B9B800853E27 /* UserAuthInfo.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = UserAuthInfo.hxx; path = dum/UserAuthInfo.hxx; sourceTree = "<group>"; };
 		F8DB1D200C56B9B800853E27 /* UserProfile.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = UserProfile.hxx; path = dum/UserProfile.hxx; sourceTree = "<group>"; };
-		F8DB1D890C56B9EA00853E27 /* ares_compat.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ares_compat.h; path = ../contrib/ares/ares_compat.h; sourceTree = SOURCE_ROOT; };
-		F8DB1D8A0C56B9EA00853E27 /* ares_dns.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ares_dns.h; path = ../contrib/ares/ares_dns.h; sourceTree = SOURCE_ROOT; };
-		F8DB1D8B0C56B9EA00853E27 /* ares_local.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ares_local.h; path = ../contrib/ares/ares_local.h; sourceTree = SOURCE_ROOT; };
-		F8DB1D8C0C56B9EA00853E27 /* ares_private.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ares_private.h; path = ../contrib/ares/ares_private.h; sourceTree = SOURCE_ROOT; };
+		F8DB1D890C56B9EA00853E27 /* ares_compat.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ares_compat.h; sourceTree = "<group>"; };
+		F8DB1D8A0C56B9EA00853E27 /* ares_dns.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ares_dns.h; sourceTree = "<group>"; };
+		F8DB1D8B0C56B9EA00853E27 /* ares_local.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ares_local.h; sourceTree = "<group>"; };
+		F8DB1D8C0C56B9EA00853E27 /* ares_private.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ares_private.h; sourceTree = "<group>"; };
 		F8DB1D920C56CE1500853E27 /* AbstractFifo.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = AbstractFifo.hxx; path = ../rutil/AbstractFifo.hxx; sourceTree = SOURCE_ROOT; };
 		F8DB1D930C56CE1500853E27 /* AsyncID.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = AsyncID.hxx; path = ../rutil/AsyncID.hxx; sourceTree = SOURCE_ROOT; };
 		F8DB1D940C56CE1500853E27 /* BaseException.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = BaseException.hxx; path = ../rutil/BaseException.hxx; sourceTree = SOURCE_ROOT; };
@@ -1187,8 +1187,8 @@
 		F8DB1E8B0C56CE9800853E27 /* Security.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = Security.hxx; path = stack/ssl/Security.hxx; sourceTree = "<group>"; };
 		F8DB1E8C0C56CE9800853E27 /* SecurityAttributes.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = SecurityAttributes.hxx; path = stack/SecurityAttributes.hxx; sourceTree = "<group>"; };
 		F8DB1E8D0C56CE9800853E27 /* SecurityTypes.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = SecurityTypes.hxx; path = stack/SecurityTypes.hxx; sourceTree = "<group>"; };
-		F8DB1E8E0C56CE9800853E27 /* SelectInterruptor.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SelectInterruptor.cxx; path = stack/SelectInterruptor.cxx; sourceTree = "<group>"; };
-		F8DB1E8F0C56CE9800853E27 /* SelectInterruptor.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = SelectInterruptor.hxx; path = stack/SelectInterruptor.hxx; sourceTree = "<group>"; };
+		F8DB1E8E0C56CE9800853E27 /* SelectInterruptor.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SelectInterruptor.cxx; path = ../rutil/SelectInterruptor.cxx; sourceTree = "<group>"; };
+		F8DB1E8F0C56CE9800853E27 /* SelectInterruptor.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = SelectInterruptor.hxx; path = ../rutil/SelectInterruptor.hxx; sourceTree = "<group>"; };
 		F8DB1E900C56CE9800853E27 /* SendData.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = SendData.hxx; path = stack/SendData.hxx; sourceTree = "<group>"; };
 		F8DB1E910C56CE9800853E27 /* SERNonceHelper.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SERNonceHelper.cxx; path = stack/SERNonceHelper.cxx; sourceTree = "<group>"; };
 		F8DB1E920C56CE9800853E27 /* SERNonceHelper.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = SERNonceHelper.hxx; path = stack/SERNonceHelper.hxx; sourceTree = "<group>"; };
@@ -1245,8 +1245,8 @@
 		F8DB1EC50C56CE9800853E27 /* WarningCategory.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = WarningCategory.hxx; path = stack/WarningCategory.hxx; sourceTree = "<group>"; };
 		F8DB1EC80C56CE9800853E27 /* X509Contents.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = X509Contents.cxx; path = stack/X509Contents.cxx; sourceTree = "<group>"; };
 		F8DB1EC90C56CE9800853E27 /* X509Contents.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = X509Contents.hxx; path = stack/X509Contents.hxx; sourceTree = "<group>"; };
-		F8DB1ECA0C56CE9800853E27 /* XMLCursor.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = XMLCursor.cxx; path = stack/XMLCursor.cxx; sourceTree = "<group>"; };
-		F8DB1ECB0C56CE9800853E27 /* XMLCursor.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = XMLCursor.hxx; path = stack/XMLCursor.hxx; sourceTree = "<group>"; };
+		F8DB1ECA0C56CE9800853E27 /* XMLCursor.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = XMLCursor.cxx; path = ../rutil/XMLCursor.cxx; sourceTree = "<group>"; };
+		F8DB1ECB0C56CE9800853E27 /* XMLCursor.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = XMLCursor.hxx; path = ../rutil/XMLCursor.hxx; sourceTree = "<group>"; };
 		F8DB1F790C56CEEC00853E27 /* Stun.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Stun.cxx; path = ../rutil/stun/Stun.cxx; sourceTree = SOURCE_ROOT; };
 		F8DB1F7A0C56CEEC00853E27 /* Stun.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = Stun.hxx; path = ../rutil/stun/Stun.hxx; sourceTree = SOURCE_ROOT; };
 		F8DB1F7B0C56CEEC00853E27 /* Udp.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Udp.cxx; path = ../rutil/stun/Udp.cxx; sourceTree = SOURCE_ROOT; };
@@ -1358,6 +1358,7 @@
 				124D78B1086CC36600BCA5A9 /* ares_timeout.c */,
 			);
 			name = ares;
+			path = ../rutil/dns/ares;
 			sourceTree = "<group>";
 		};
 		124D799D086CC62900BCA5A9 /* dns */ = {
@@ -2393,6 +2394,8 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 12F7971F086CB6D700AF4EDF /* Build configuration list for PBXProject "sip" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
