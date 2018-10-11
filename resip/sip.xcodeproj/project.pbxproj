@@ -3142,36 +3142,43 @@
 		12F79720086CB6D700AF4EDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"USE_IPV6=1",
 					"USE_ARES=1",
+					"USE_SSL=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares";
+				HEADER_SEARCH_PATHS = /usr/local/opt/openssl/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/openssl/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SYSTEM_HEADER_SEARCH_PATHS = "../ ../rutil/dns/ares";
 			};
 			name = Debug;
 		};
 		12F79721086CB6D700AF4EDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"USE_IPV6=1",
 					"USE_ARES=1",
+					"USE_SSL=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares";
+				HEADER_SEARCH_PATHS = /usr/local/opt/openssl/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/openssl/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SYSTEM_HEADER_SEARCH_PATHS = "../ ../rutil/dns/ares";
 			};
 			name = Release;
 		};
 		12F79735086CBA1E00AF4EDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EXCLUDED_SOURCE_FILE_NAMES = TlsConnection.cxx;
 				PRODUCT_NAME = resiprocate;
 			};
 			name = Debug;
@@ -3179,7 +3186,6 @@
 		12F79736086CBA1E00AF4EDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EXCLUDED_SOURCE_FILE_NAMES = TlsConnection.cxx;
 				PRODUCT_NAME = resiprocate;
 			};
 			name = Release;
@@ -3195,7 +3201,7 @@
 				INSTALL_PATH = "$(HOME)/bin";
 				PREBINDING = NO;
 				PRODUCT_NAME = SipDialer;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../apps/sipdial/include/sipdial";
+				USER_HEADER_SEARCH_PATHS = ../apps/sipdial/include/sipdial;
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -3209,102 +3215,10 @@
 				INSTALL_PATH = "$(HOME)/bin";
 				PREBINDING = NO;
 				PRODUCT_NAME = SipDialer;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../apps/sipdial/include/sipdial";
+				USER_HEADER_SEARCH_PATHS = ../apps/sipdial/include/sipdial;
 				ZERO_LINK = NO;
 			};
 			name = Release;
-		};
-		F8F4ED62133D351F0000D69D /* SSL-Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"USE_IPV6=1",
-					"USE_ARES=1",
-					"USE_SSL=1",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares";
-			};
-			name = "SSL-Debug";
-		};
-		F8F4ED63133D351F0000D69D /* SSL-Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_DYNAMIC_NO_PIC = NO;
-				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = ares;
-			};
-			name = "SSL-Debug";
-		};
-		F8F4ED64133D351F0000D69D /* SSL-Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = resiprocate;
-			};
-			name = "SSL-Debug";
-		};
-		F8F4ED65133D351F0000D69D /* SSL-Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				INSTALL_PATH = "$(HOME)/bin";
-				PREBINDING = NO;
-				PRODUCT_NAME = SipDialer;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../apps/sipdial/include/sipdial";
-				ZERO_LINK = YES;
-			};
-			name = "SSL-Debug";
-		};
-		F8F4ED66133D35220000D69D /* SSL-Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"USE_IPV6=1",
-					"USE_ARES=1",
-					"USE_SSL=1",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares";
-			};
-			name = "SSL-Release";
-		};
-		F8F4ED67133D35220000D69D /* SSL-Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = ares;
-			};
-			name = "SSL-Release";
-		};
-		F8F4ED68133D35220000D69D /* SSL-Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = resiprocate;
-			};
-			name = "SSL-Release";
-		};
-		F8F4ED69133D35220000D69D /* SSL-Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				INSTALL_PATH = "$(HOME)/bin";
-				PREBINDING = NO;
-				PRODUCT_NAME = SipDialer;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../apps/sipdial/include/sipdial";
-				ZERO_LINK = NO;
-			};
-			name = "SSL-Release";
 		};
 /* End XCBuildConfiguration section */
 
@@ -3314,8 +3228,6 @@
 			buildConfigurations = (
 				12F7971C086CB6D700AF4EDF /* Debug */,
 				12F7971D086CB6D700AF4EDF /* Release */,
-				F8F4ED63133D351F0000D69D /* SSL-Debug */,
-				F8F4ED67133D35220000D69D /* SSL-Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3325,8 +3237,6 @@
 			buildConfigurations = (
 				12F79720086CB6D700AF4EDF /* Debug */,
 				12F79721086CB6D700AF4EDF /* Release */,
-				F8F4ED62133D351F0000D69D /* SSL-Debug */,
-				F8F4ED66133D35220000D69D /* SSL-Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3336,8 +3246,6 @@
 			buildConfigurations = (
 				12F79735086CBA1E00AF4EDF /* Debug */,
 				12F79736086CBA1E00AF4EDF /* Release */,
-				F8F4ED64133D351F0000D69D /* SSL-Debug */,
-				F8F4ED68133D35220000D69D /* SSL-Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3347,8 +3255,6 @@
 			buildConfigurations = (
 				F8DB1C8B0C56B7E200853E27 /* Debug */,
 				F8DB1C8C0C56B7E200853E27 /* Release */,
-				F8F4ED65133D351F0000D69D /* SSL-Debug */,
-				F8F4ED69133D35220000D69D /* SSL-Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
