@@ -226,6 +226,98 @@
 		12BF59390895D5E600F7DD81 /* EncryptionManager.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 12BF59380895D5E600F7DD81 /* EncryptionManager.cxx */; };
 		12BF593C0895D5FF00F7DD81 /* DumDecrypted.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 12BF593A0895D5FF00F7DD81 /* DumDecrypted.cxx */; };
 		12BF59580895D7B800F7DD81 /* CertMessage.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 12BF59570895D7B800F7DD81 /* CertMessage.cxx */; };
+		74CE2413216F79F2006FACD9 /* ConfigParse.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2411216F79F1006FACD9 /* ConfigParse.cxx */; };
+		74CE2414216F79F2006FACD9 /* ConfigParse.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2412216F79F2006FACD9 /* ConfigParse.hxx */; };
+		74CE2429216F7A35006FACD9 /* WorkerThread.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2415216F7A33006FACD9 /* WorkerThread.cxx */; };
+		74CE242A216F7A35006FACD9 /* Worker.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2416216F7A34006FACD9 /* Worker.hxx */; };
+		74CE242B216F7A35006FACD9 /* WsBaseTransport.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2417216F7A34006FACD9 /* WsBaseTransport.cxx */; };
+		74CE242C216F7A35006FACD9 /* WsBaseTransport.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2418216F7A34006FACD9 /* WsBaseTransport.hxx */; };
+		74CE242D216F7A35006FACD9 /* WsCookieContextFactory.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2419216F7A34006FACD9 /* WsCookieContextFactory.hxx */; };
+		74CE242E216F7A35006FACD9 /* WsDecorator.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE241A216F7A34006FACD9 /* WsDecorator.hxx */; };
+		74CE242F216F7A35006FACD9 /* WsFrameExtractor.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE241B216F7A34006FACD9 /* WsFrameExtractor.hxx */; };
+		74CE2430216F7A35006FACD9 /* WsConnection.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE241C216F7A34006FACD9 /* WsConnection.hxx */; };
+		74CE2431216F7A35006FACD9 /* WsTransport.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE241D216F7A34006FACD9 /* WsTransport.hxx */; };
+		74CE2432216F7A35006FACD9 /* WsConnectionValidator.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE241E216F7A34006FACD9 /* WsConnectionValidator.hxx */; };
+		74CE2433216F7A35006FACD9 /* WsConnectionBase.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE241F216F7A34006FACD9 /* WsConnectionBase.hxx */; };
+		74CE2434216F7A35006FACD9 /* WorkerThread.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2420216F7A34006FACD9 /* WorkerThread.hxx */; };
+		74CE2435216F7A35006FACD9 /* WsConnection.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2421216F7A35006FACD9 /* WsConnection.cxx */; };
+		74CE2436216F7A35006FACD9 /* WsDecorator.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2422216F7A35006FACD9 /* WsDecorator.cxx */; };
+		74CE2437216F7A35006FACD9 /* WsCookieContext.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2423216F7A35006FACD9 /* WsCookieContext.cxx */; };
+		74CE2438216F7A35006FACD9 /* WsFrameExtractor.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2424216F7A35006FACD9 /* WsFrameExtractor.cxx */; };
+		74CE2439216F7A35006FACD9 /* WsTransport.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2425216F7A35006FACD9 /* WsTransport.cxx */; };
+		74CE243A216F7A35006FACD9 /* WsCookieContext.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2426216F7A35006FACD9 /* WsCookieContext.hxx */; };
+		74CE243B216F7A35006FACD9 /* ZeroOutStatistics.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2427216F7A35006FACD9 /* ZeroOutStatistics.hxx */; };
+		74CE243C216F7A35006FACD9 /* WsConnectionBase.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2428216F7A35006FACD9 /* WsConnectionBase.cxx */; };
+		74CE243F216F7A9A006FACD9 /* DayOfWeekHash.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE243D216F7A9A006FACD9 /* DayOfWeekHash.cxx */; };
+		74CE2440216F7A9A006FACD9 /* MonthHash.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE243E216F7A9A006FACD9 /* MonthHash.cxx */; };
+		74CE245E216F7ACF006FACD9 /* DialogInfoContents.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2441216F7ACC006FACD9 /* DialogInfoContents.hxx */; };
+		74CE245F216F7ACF006FACD9 /* PollStatistics.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2442216F7ACC006FACD9 /* PollStatistics.hxx */; };
+		74CE2460216F7ACF006FACD9 /* TcpConnectState.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2443216F7ACC006FACD9 /* TcpConnectState.hxx */; };
+		74CE2461216F7ACF006FACD9 /* InvokeAfterSocketCreationFunc.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2444216F7ACD006FACD9 /* InvokeAfterSocketCreationFunc.hxx */; };
+		74CE2462216F7ACF006FACD9 /* RemoveTransport.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2445216F7ACD006FACD9 /* RemoveTransport.hxx */; };
+		74CE2463216F7ACF006FACD9 /* HEPSipMessageLoggingHandler.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2446216F7ACD006FACD9 /* HEPSipMessageLoggingHandler.cxx */; };
+		74CE2464216F7ACF006FACD9 /* HEPSipMessageLoggingHandler.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2447216F7ACD006FACD9 /* HEPSipMessageLoggingHandler.hxx */; };
+		74CE2465216F7ACF006FACD9 /* Dispatcher.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2448216F7ACD006FACD9 /* Dispatcher.hxx */; };
+		74CE2466216F7ACF006FACD9 /* GenericPidfContents.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2449216F7ACD006FACD9 /* GenericPidfContents.cxx */; };
+		74CE2467216F7ACF006FACD9 /* AddTransport.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE244A216F7ACD006FACD9 /* AddTransport.hxx */; };
+		74CE2468216F7ACF006FACD9 /* ExtendedDomainMatcher.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE244B216F7ACD006FACD9 /* ExtendedDomainMatcher.cxx */; };
+		74CE2469216F7ACF006FACD9 /* Cookie.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE244C216F7ACD006FACD9 /* Cookie.cxx */; };
+		74CE246A216F7ACF006FACD9 /* TokenOrQuotedStringCategory.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE244D216F7ACD006FACD9 /* TokenOrQuotedStringCategory.cxx */; };
+		74CE246B216F7ACF006FACD9 /* TokenOrQuotedStringCategory.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE244E216F7ACD006FACD9 /* TokenOrQuotedStringCategory.hxx */; };
+		74CE246C216F7ACF006FACD9 /* TransportSelectorThread.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE244F216F7ACE006FACD9 /* TransportSelectorThread.hxx */; };
+		74CE246D216F7ACF006FACD9 /* TransportThread.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2450216F7ACE006FACD9 /* TransportThread.cxx */; };
+		74CE246E216F7ACF006FACD9 /* BasicDomainMatcher.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2451216F7ACE006FACD9 /* BasicDomainMatcher.hxx */; };
+		74CE246F216F7ACF006FACD9 /* SipConfigParse.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2452216F7ACE006FACD9 /* SipConfigParse.cxx */; };
+		74CE2470216F7ACF006FACD9 /* BasicDomainMatcher.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2453216F7ACE006FACD9 /* BasicDomainMatcher.cxx */; };
+		74CE2471216F7ACF006FACD9 /* DialogInfoContents.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2454216F7ACE006FACD9 /* DialogInfoContents.cxx */; };
+		74CE2472216F7ACF006FACD9 /* Dispatcher.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2455216F7ACE006FACD9 /* Dispatcher.cxx */; };
+		74CE2473216F7ACF006FACD9 /* TcpConnectState.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2456216F7ACE006FACD9 /* TcpConnectState.cxx */; };
+		74CE2474216F7ACF006FACD9 /* ExtendedDomainMatcher.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2457216F7ACE006FACD9 /* ExtendedDomainMatcher.hxx */; };
+		74CE2475216F7ACF006FACD9 /* TransportThread.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2458216F7ACE006FACD9 /* TransportThread.hxx */; };
+		74CE2476216F7ACF006FACD9 /* Cookie.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2459216F7ACF006FACD9 /* Cookie.hxx */; };
+		74CE2477216F7ACF006FACD9 /* TransactionControllerThread.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE245A216F7ACF006FACD9 /* TransactionControllerThread.hxx */; };
+		74CE2478216F7ACF006FACD9 /* GenericPidfContents.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE245B216F7ACF006FACD9 /* GenericPidfContents.hxx */; };
+		74CE2479216F7ACF006FACD9 /* SipConfigParse.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE245C216F7ACF006FACD9 /* SipConfigParse.hxx */; };
+		74CE247A216F7ACF006FACD9 /* StartLine.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE245D216F7ACF006FACD9 /* StartLine.hxx */; };
+		74CE2480216F7B0A006FACD9 /* HepAgent.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE247C216F7B09006FACD9 /* HepAgent.hxx */; };
+		74CE2481216F7B0A006FACD9 /* ResipHep.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE247D216F7B09006FACD9 /* ResipHep.hxx */; };
+		74CE2482216F7B0A006FACD9 /* ResipHep.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE247E216F7B09006FACD9 /* ResipHep.cxx */; };
+		74CE2483216F7B0A006FACD9 /* HepAgent.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE247F216F7B09006FACD9 /* HepAgent.cxx */; };
+		74CE249C216F7B33006FACD9 /* FdSetIOObserver.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2484216F7B30006FACD9 /* FdSetIOObserver.hxx */; };
+		74CE249D216F7B33006FACD9 /* GenericIPAddress.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2485216F7B30006FACD9 /* GenericIPAddress.cxx */; };
+		74CE249E216F7B33006FACD9 /* PoolBase.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2486216F7B30006FACD9 /* PoolBase.cxx */; };
+		74CE249F216F7B33006FACD9 /* PoolBase.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2487216F7B30006FACD9 /* PoolBase.hxx */; };
+		74CE24A0216F7B33006FACD9 /* ResipAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2488216F7B30006FACD9 /* ResipAssert.h */; };
+		74CE24A1216F7B33006FACD9 /* ServerProcess.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2489216F7B30006FACD9 /* ServerProcess.hxx */; };
+		74CE24A2216F7B33006FACD9 /* DinkyPool.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE248A216F7B31006FACD9 /* DinkyPool.hxx */; };
+		74CE24A3216F7B33006FACD9 /* GeneralCongestionManager.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE248B216F7B31006FACD9 /* GeneralCongestionManager.hxx */; };
+		74CE24A4216F7B33006FACD9 /* KeyValueStore.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE248C216F7B31006FACD9 /* KeyValueStore.hxx */; };
+		74CE24A6216F7B33006FACD9 /* GeneralCongestionManager.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE248E216F7B31006FACD9 /* GeneralCongestionManager.cxx */; };
+		74CE24A7216F7B33006FACD9 /* ProducerFifoBuffer.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE248F216F7B31006FACD9 /* ProducerFifoBuffer.hxx */; };
+		74CE24A8216F7B33006FACD9 /* StlPoolAllocator.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2490216F7B31006FACD9 /* StlPoolAllocator.hxx */; };
+		74CE24A9216F7B33006FACD9 /* KeyValueStore.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2491216F7B31006FACD9 /* KeyValueStore.cxx */; };
+		74CE24AA216F7B33006FACD9 /* AsyncBool.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2492216F7B31006FACD9 /* AsyncBool.hxx */; };
+		74CE24AB216F7B33006FACD9 /* ServerProcess.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2493216F7B32006FACD9 /* ServerProcess.cxx */; };
+		74CE24AC216F7B33006FACD9 /* NetNs.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2494216F7B32006FACD9 /* NetNs.hxx */; };
+		74CE24AD216F7B33006FACD9 /* NetNs.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2495216F7B32006FACD9 /* NetNs.cxx */; };
+		74CE24AE216F7B33006FACD9 /* Sha1.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE2496216F7B32006FACD9 /* Sha1.cxx */; };
+		74CE24AF216F7B33006FACD9 /* Sha1.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2497216F7B32006FACD9 /* Sha1.hxx */; };
+		74CE24B1216F7B33006FACD9 /* CongestionManager.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE2499216F7B32006FACD9 /* CongestionManager.hxx */; };
+		74CE24B3216F7B33006FACD9 /* ConsumerFifoBuffer.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE249B216F7B32006FACD9 /* ConsumerFifoBuffer.hxx */; };
+		74CE24BA216F7BD8006FACD9 /* WssTransport.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE24B4216F7BD8006FACD9 /* WssTransport.cxx */; };
+		74CE24BB216F7BD8006FACD9 /* WssConnection.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE24B5216F7BD8006FACD9 /* WssConnection.hxx */; };
+		74CE24BC216F7BD8006FACD9 /* WssTransport.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE24B6216F7BD8006FACD9 /* WssTransport.hxx */; };
+		74CE24BD216F7BD8006FACD9 /* TlsBaseTransport.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE24B7216F7BD8006FACD9 /* TlsBaseTransport.cxx */; };
+		74CE24BE216F7BD8006FACD9 /* TlsBaseTransport.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE24B8216F7BD8006FACD9 /* TlsBaseTransport.hxx */; };
+		74CE24BF216F7BD8006FACD9 /* WssConnection.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE24B9216F7BD8006FACD9 /* WssConnection.cxx */; };
+		74CE24C3216F7CEC006FACD9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CE24C1216F7CD8006FACD9 /* CoreFoundation.framework */; };
+		74CE24C5216F7DF4006FACD9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CE24C1216F7CD8006FACD9 /* CoreFoundation.framework */; };
+		74CE24C9216F7E8B006FACD9 /* DtmfPayloadContents.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE24C6216F7E8A006FACD9 /* DtmfPayloadContents.hxx */; };
+		74CE24CA216F7E8B006FACD9 /* DtmfPayloadContents.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE24C7216F7E8B006FACD9 /* DtmfPayloadContents.cxx */; };
+		74CE24CB216F7E8B006FACD9 /* DnsResultMessage.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE24C8216F7E8B006FACD9 /* DnsResultMessage.hxx */; };
+		74CE24CF216F7E9E006FACD9 /* DnsThread.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 74CE24CC216F7E9E006FACD9 /* DnsThread.cxx */; };
+		74CE24D0216F7E9E006FACD9 /* DnsThread.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE24CD216F7E9E006FACD9 /* DnsThread.hxx */; };
+		74CE24D1216F7E9E006FACD9 /* AresCompat.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 74CE24CE216F7E9E006FACD9 /* AresCompat.hxx */; };
 		F80A8D4A12B2CA66002D37E0 /* FdPoll.cxx in Sources */ = {isa = PBXBuildFile; fileRef = F80A8D4812B2CA66002D37E0 /* FdPoll.cxx */; };
 		F80A8D4B12B2CA66002D37E0 /* FdPoll.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F80A8D4912B2CA66002D37E0 /* FdPoll.hxx */; };
 		F8A057C7124D47D700112774 /* TcpConnection.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 124D7916086CC3CE00BCA5A9 /* TcpConnection.cxx */; };
@@ -865,6 +957,97 @@
 		12BF593A0895D5FF00F7DD81 /* DumDecrypted.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = DumDecrypted.cxx; path = dum/DumDecrypted.cxx; sourceTree = "<group>"; };
 		12BF59570895D7B800F7DD81 /* CertMessage.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CertMessage.cxx; path = dum/CertMessage.cxx; sourceTree = "<group>"; };
 		12F79738086CBA1E00AF4EDF /* libresiprocate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libresiprocate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		74CE2411216F79F1006FACD9 /* ConfigParse.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConfigParse.cxx; path = ../rutil/ConfigParse.cxx; sourceTree = "<group>"; };
+		74CE2412216F79F2006FACD9 /* ConfigParse.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ConfigParse.hxx; path = ../rutil/ConfigParse.hxx; sourceTree = "<group>"; };
+		74CE2415216F7A33006FACD9 /* WorkerThread.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WorkerThread.cxx; path = stack/WorkerThread.cxx; sourceTree = "<group>"; };
+		74CE2416216F7A34006FACD9 /* Worker.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Worker.hxx; path = stack/Worker.hxx; sourceTree = "<group>"; };
+		74CE2417216F7A34006FACD9 /* WsBaseTransport.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WsBaseTransport.cxx; path = stack/WsBaseTransport.cxx; sourceTree = "<group>"; };
+		74CE2418216F7A34006FACD9 /* WsBaseTransport.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WsBaseTransport.hxx; path = stack/WsBaseTransport.hxx; sourceTree = "<group>"; };
+		74CE2419216F7A34006FACD9 /* WsCookieContextFactory.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WsCookieContextFactory.hxx; path = stack/WsCookieContextFactory.hxx; sourceTree = "<group>"; };
+		74CE241A216F7A34006FACD9 /* WsDecorator.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WsDecorator.hxx; path = stack/WsDecorator.hxx; sourceTree = "<group>"; };
+		74CE241B216F7A34006FACD9 /* WsFrameExtractor.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WsFrameExtractor.hxx; path = stack/WsFrameExtractor.hxx; sourceTree = "<group>"; };
+		74CE241C216F7A34006FACD9 /* WsConnection.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WsConnection.hxx; path = stack/WsConnection.hxx; sourceTree = "<group>"; };
+		74CE241D216F7A34006FACD9 /* WsTransport.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WsTransport.hxx; path = stack/WsTransport.hxx; sourceTree = "<group>"; };
+		74CE241E216F7A34006FACD9 /* WsConnectionValidator.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WsConnectionValidator.hxx; path = stack/WsConnectionValidator.hxx; sourceTree = "<group>"; };
+		74CE241F216F7A34006FACD9 /* WsConnectionBase.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WsConnectionBase.hxx; path = stack/WsConnectionBase.hxx; sourceTree = "<group>"; };
+		74CE2420216F7A34006FACD9 /* WorkerThread.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WorkerThread.hxx; path = stack/WorkerThread.hxx; sourceTree = "<group>"; };
+		74CE2421216F7A35006FACD9 /* WsConnection.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WsConnection.cxx; path = stack/WsConnection.cxx; sourceTree = "<group>"; };
+		74CE2422216F7A35006FACD9 /* WsDecorator.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WsDecorator.cxx; path = stack/WsDecorator.cxx; sourceTree = "<group>"; };
+		74CE2423216F7A35006FACD9 /* WsCookieContext.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WsCookieContext.cxx; path = stack/WsCookieContext.cxx; sourceTree = "<group>"; };
+		74CE2424216F7A35006FACD9 /* WsFrameExtractor.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WsFrameExtractor.cxx; path = stack/WsFrameExtractor.cxx; sourceTree = "<group>"; };
+		74CE2425216F7A35006FACD9 /* WsTransport.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WsTransport.cxx; path = stack/WsTransport.cxx; sourceTree = "<group>"; };
+		74CE2426216F7A35006FACD9 /* WsCookieContext.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WsCookieContext.hxx; path = stack/WsCookieContext.hxx; sourceTree = "<group>"; };
+		74CE2427216F7A35006FACD9 /* ZeroOutStatistics.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ZeroOutStatistics.hxx; path = stack/ZeroOutStatistics.hxx; sourceTree = "<group>"; };
+		74CE2428216F7A35006FACD9 /* WsConnectionBase.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WsConnectionBase.cxx; path = stack/WsConnectionBase.cxx; sourceTree = "<group>"; };
+		74CE243D216F7A9A006FACD9 /* DayOfWeekHash.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DayOfWeekHash.cxx; path = stack/gen/DayOfWeekHash.cxx; sourceTree = "<group>"; };
+		74CE243E216F7A9A006FACD9 /* MonthHash.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MonthHash.cxx; path = stack/gen/MonthHash.cxx; sourceTree = "<group>"; };
+		74CE2441216F7ACC006FACD9 /* DialogInfoContents.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DialogInfoContents.hxx; path = stack/DialogInfoContents.hxx; sourceTree = "<group>"; };
+		74CE2442216F7ACC006FACD9 /* PollStatistics.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PollStatistics.hxx; path = stack/PollStatistics.hxx; sourceTree = "<group>"; };
+		74CE2443216F7ACC006FACD9 /* TcpConnectState.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TcpConnectState.hxx; path = stack/TcpConnectState.hxx; sourceTree = "<group>"; };
+		74CE2444216F7ACD006FACD9 /* InvokeAfterSocketCreationFunc.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = InvokeAfterSocketCreationFunc.hxx; path = stack/InvokeAfterSocketCreationFunc.hxx; sourceTree = "<group>"; };
+		74CE2445216F7ACD006FACD9 /* RemoveTransport.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RemoveTransport.hxx; path = stack/RemoveTransport.hxx; sourceTree = "<group>"; };
+		74CE2446216F7ACD006FACD9 /* HEPSipMessageLoggingHandler.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HEPSipMessageLoggingHandler.cxx; path = stack/HEPSipMessageLoggingHandler.cxx; sourceTree = "<group>"; };
+		74CE2447216F7ACD006FACD9 /* HEPSipMessageLoggingHandler.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = HEPSipMessageLoggingHandler.hxx; path = stack/HEPSipMessageLoggingHandler.hxx; sourceTree = "<group>"; };
+		74CE2448216F7ACD006FACD9 /* Dispatcher.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Dispatcher.hxx; path = stack/Dispatcher.hxx; sourceTree = "<group>"; };
+		74CE2449216F7ACD006FACD9 /* GenericPidfContents.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GenericPidfContents.cxx; path = stack/GenericPidfContents.cxx; sourceTree = "<group>"; };
+		74CE244A216F7ACD006FACD9 /* AddTransport.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AddTransport.hxx; path = stack/AddTransport.hxx; sourceTree = "<group>"; };
+		74CE244B216F7ACD006FACD9 /* ExtendedDomainMatcher.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ExtendedDomainMatcher.cxx; path = stack/ExtendedDomainMatcher.cxx; sourceTree = "<group>"; };
+		74CE244C216F7ACD006FACD9 /* Cookie.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Cookie.cxx; path = stack/Cookie.cxx; sourceTree = "<group>"; };
+		74CE244D216F7ACD006FACD9 /* TokenOrQuotedStringCategory.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TokenOrQuotedStringCategory.cxx; path = stack/TokenOrQuotedStringCategory.cxx; sourceTree = "<group>"; };
+		74CE244E216F7ACD006FACD9 /* TokenOrQuotedStringCategory.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TokenOrQuotedStringCategory.hxx; path = stack/TokenOrQuotedStringCategory.hxx; sourceTree = "<group>"; };
+		74CE244F216F7ACE006FACD9 /* TransportSelectorThread.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TransportSelectorThread.hxx; path = stack/TransportSelectorThread.hxx; sourceTree = "<group>"; };
+		74CE2450216F7ACE006FACD9 /* TransportThread.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TransportThread.cxx; path = stack/TransportThread.cxx; sourceTree = "<group>"; };
+		74CE2451216F7ACE006FACD9 /* BasicDomainMatcher.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BasicDomainMatcher.hxx; path = stack/BasicDomainMatcher.hxx; sourceTree = "<group>"; };
+		74CE2452216F7ACE006FACD9 /* SipConfigParse.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SipConfigParse.cxx; path = stack/SipConfigParse.cxx; sourceTree = "<group>"; };
+		74CE2453216F7ACE006FACD9 /* BasicDomainMatcher.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasicDomainMatcher.cxx; path = stack/BasicDomainMatcher.cxx; sourceTree = "<group>"; };
+		74CE2454216F7ACE006FACD9 /* DialogInfoContents.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DialogInfoContents.cxx; path = stack/DialogInfoContents.cxx; sourceTree = "<group>"; };
+		74CE2455216F7ACE006FACD9 /* Dispatcher.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Dispatcher.cxx; path = stack/Dispatcher.cxx; sourceTree = "<group>"; };
+		74CE2456216F7ACE006FACD9 /* TcpConnectState.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TcpConnectState.cxx; path = stack/TcpConnectState.cxx; sourceTree = "<group>"; };
+		74CE2457216F7ACE006FACD9 /* ExtendedDomainMatcher.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ExtendedDomainMatcher.hxx; path = stack/ExtendedDomainMatcher.hxx; sourceTree = "<group>"; };
+		74CE2458216F7ACE006FACD9 /* TransportThread.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TransportThread.hxx; path = stack/TransportThread.hxx; sourceTree = "<group>"; };
+		74CE2459216F7ACF006FACD9 /* Cookie.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Cookie.hxx; path = stack/Cookie.hxx; sourceTree = "<group>"; };
+		74CE245A216F7ACF006FACD9 /* TransactionControllerThread.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TransactionControllerThread.hxx; path = stack/TransactionControllerThread.hxx; sourceTree = "<group>"; };
+		74CE245B216F7ACF006FACD9 /* GenericPidfContents.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GenericPidfContents.hxx; path = stack/GenericPidfContents.hxx; sourceTree = "<group>"; };
+		74CE245C216F7ACF006FACD9 /* SipConfigParse.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SipConfigParse.hxx; path = stack/SipConfigParse.hxx; sourceTree = "<group>"; };
+		74CE245D216F7ACF006FACD9 /* StartLine.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = StartLine.hxx; path = stack/StartLine.hxx; sourceTree = "<group>"; };
+		74CE247C216F7B09006FACD9 /* HepAgent.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HepAgent.hxx; sourceTree = "<group>"; };
+		74CE247D216F7B09006FACD9 /* ResipHep.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ResipHep.hxx; sourceTree = "<group>"; };
+		74CE247E216F7B09006FACD9 /* ResipHep.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResipHep.cxx; sourceTree = "<group>"; };
+		74CE247F216F7B09006FACD9 /* HepAgent.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HepAgent.cxx; sourceTree = "<group>"; };
+		74CE2484216F7B30006FACD9 /* FdSetIOObserver.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FdSetIOObserver.hxx; path = ../rutil/FdSetIOObserver.hxx; sourceTree = "<group>"; };
+		74CE2485216F7B30006FACD9 /* GenericIPAddress.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GenericIPAddress.cxx; path = ../rutil/GenericIPAddress.cxx; sourceTree = "<group>"; };
+		74CE2486216F7B30006FACD9 /* PoolBase.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PoolBase.cxx; path = ../rutil/PoolBase.cxx; sourceTree = "<group>"; };
+		74CE2487216F7B30006FACD9 /* PoolBase.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PoolBase.hxx; path = ../rutil/PoolBase.hxx; sourceTree = "<group>"; };
+		74CE2488216F7B30006FACD9 /* ResipAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResipAssert.h; path = ../rutil/ResipAssert.h; sourceTree = "<group>"; };
+		74CE2489216F7B30006FACD9 /* ServerProcess.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ServerProcess.hxx; path = ../rutil/ServerProcess.hxx; sourceTree = "<group>"; };
+		74CE248A216F7B31006FACD9 /* DinkyPool.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DinkyPool.hxx; path = ../rutil/DinkyPool.hxx; sourceTree = "<group>"; };
+		74CE248B216F7B31006FACD9 /* GeneralCongestionManager.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GeneralCongestionManager.hxx; path = ../rutil/GeneralCongestionManager.hxx; sourceTree = "<group>"; };
+		74CE248C216F7B31006FACD9 /* KeyValueStore.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = KeyValueStore.hxx; path = ../rutil/KeyValueStore.hxx; sourceTree = "<group>"; };
+		74CE248E216F7B31006FACD9 /* GeneralCongestionManager.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeneralCongestionManager.cxx; path = ../rutil/GeneralCongestionManager.cxx; sourceTree = "<group>"; };
+		74CE248F216F7B31006FACD9 /* ProducerFifoBuffer.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ProducerFifoBuffer.hxx; path = ../rutil/ProducerFifoBuffer.hxx; sourceTree = "<group>"; };
+		74CE2490216F7B31006FACD9 /* StlPoolAllocator.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = StlPoolAllocator.hxx; path = ../rutil/StlPoolAllocator.hxx; sourceTree = "<group>"; };
+		74CE2491216F7B31006FACD9 /* KeyValueStore.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = KeyValueStore.cxx; path = ../rutil/KeyValueStore.cxx; sourceTree = "<group>"; };
+		74CE2492216F7B31006FACD9 /* AsyncBool.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AsyncBool.hxx; path = ../rutil/AsyncBool.hxx; sourceTree = "<group>"; };
+		74CE2493216F7B32006FACD9 /* ServerProcess.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ServerProcess.cxx; path = ../rutil/ServerProcess.cxx; sourceTree = "<group>"; };
+		74CE2494216F7B32006FACD9 /* NetNs.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = NetNs.hxx; path = ../rutil/NetNs.hxx; sourceTree = "<group>"; };
+		74CE2495216F7B32006FACD9 /* NetNs.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NetNs.cxx; path = ../rutil/NetNs.cxx; sourceTree = "<group>"; };
+		74CE2496216F7B32006FACD9 /* Sha1.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sha1.cxx; path = ../rutil/Sha1.cxx; sourceTree = "<group>"; };
+		74CE2497216F7B32006FACD9 /* Sha1.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Sha1.hxx; path = ../rutil/Sha1.hxx; sourceTree = "<group>"; };
+		74CE2499216F7B32006FACD9 /* CongestionManager.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CongestionManager.hxx; path = ../rutil/CongestionManager.hxx; sourceTree = "<group>"; };
+		74CE249B216F7B32006FACD9 /* ConsumerFifoBuffer.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ConsumerFifoBuffer.hxx; path = ../rutil/ConsumerFifoBuffer.hxx; sourceTree = "<group>"; };
+		74CE24B4216F7BD8006FACD9 /* WssTransport.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WssTransport.cxx; path = stack/ssl/WssTransport.cxx; sourceTree = "<group>"; };
+		74CE24B5216F7BD8006FACD9 /* WssConnection.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WssConnection.hxx; path = stack/ssl/WssConnection.hxx; sourceTree = "<group>"; };
+		74CE24B6216F7BD8006FACD9 /* WssTransport.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WssTransport.hxx; path = stack/ssl/WssTransport.hxx; sourceTree = "<group>"; };
+		74CE24B7216F7BD8006FACD9 /* TlsBaseTransport.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TlsBaseTransport.cxx; path = stack/ssl/TlsBaseTransport.cxx; sourceTree = "<group>"; };
+		74CE24B8216F7BD8006FACD9 /* TlsBaseTransport.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TlsBaseTransport.hxx; path = stack/ssl/TlsBaseTransport.hxx; sourceTree = "<group>"; };
+		74CE24B9216F7BD8006FACD9 /* WssConnection.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WssConnection.cxx; path = stack/ssl/WssConnection.cxx; sourceTree = "<group>"; };
+		74CE24C1216F7CD8006FACD9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		74CE24C6216F7E8A006FACD9 /* DtmfPayloadContents.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DtmfPayloadContents.hxx; path = stack/DtmfPayloadContents.hxx; sourceTree = "<group>"; };
+		74CE24C7216F7E8B006FACD9 /* DtmfPayloadContents.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DtmfPayloadContents.cxx; path = stack/DtmfPayloadContents.cxx; sourceTree = "<group>"; };
+		74CE24C8216F7E8B006FACD9 /* DnsResultMessage.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DnsResultMessage.hxx; path = stack/DnsResultMessage.hxx; sourceTree = "<group>"; };
+		74CE24CC216F7E9E006FACD9 /* DnsThread.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DnsThread.cxx; path = ../rutil/dns/DnsThread.cxx; sourceTree = "<group>"; };
+		74CE24CD216F7E9E006FACD9 /* DnsThread.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DnsThread.hxx; path = ../rutil/dns/DnsThread.hxx; sourceTree = "<group>"; };
+		74CE24CE216F7E9E006FACD9 /* AresCompat.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AresCompat.hxx; path = ../rutil/dns/AresCompat.hxx; sourceTree = "<group>"; };
 		D2AAC06F0554671400DB518D /* libares.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libares.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80A8D4812B2CA66002D37E0 /* FdPoll.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FdPoll.cxx; path = ../rutil/FdPoll.cxx; sourceTree = SOURCE_ROOT; };
 		F80A8D4912B2CA66002D37E0 /* FdPoll.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FdPoll.hxx; path = ../rutil/FdPoll.hxx; sourceTree = SOURCE_ROOT; };
@@ -1589,6 +1772,46 @@
 		12F7983E086CBBEC00AF4EDF /* resip */ = {
 			isa = PBXGroup;
 			children = (
+				74CE24C8216F7E8B006FACD9 /* DnsResultMessage.hxx */,
+				74CE24C7216F7E8B006FACD9 /* DtmfPayloadContents.cxx */,
+				74CE24C6216F7E8A006FACD9 /* DtmfPayloadContents.hxx */,
+				74CE24B7216F7BD8006FACD9 /* TlsBaseTransport.cxx */,
+				74CE24B8216F7BD8006FACD9 /* TlsBaseTransport.hxx */,
+				74CE24B9216F7BD8006FACD9 /* WssConnection.cxx */,
+				74CE24B5216F7BD8006FACD9 /* WssConnection.hxx */,
+				74CE24B4216F7BD8006FACD9 /* WssTransport.cxx */,
+				74CE24B6216F7BD8006FACD9 /* WssTransport.hxx */,
+				74CE244A216F7ACD006FACD9 /* AddTransport.hxx */,
+				74CE2453216F7ACE006FACD9 /* BasicDomainMatcher.cxx */,
+				74CE2451216F7ACE006FACD9 /* BasicDomainMatcher.hxx */,
+				74CE244C216F7ACD006FACD9 /* Cookie.cxx */,
+				74CE2459216F7ACF006FACD9 /* Cookie.hxx */,
+				74CE2454216F7ACE006FACD9 /* DialogInfoContents.cxx */,
+				74CE2441216F7ACC006FACD9 /* DialogInfoContents.hxx */,
+				74CE2455216F7ACE006FACD9 /* Dispatcher.cxx */,
+				74CE2448216F7ACD006FACD9 /* Dispatcher.hxx */,
+				74CE244B216F7ACD006FACD9 /* ExtendedDomainMatcher.cxx */,
+				74CE2457216F7ACE006FACD9 /* ExtendedDomainMatcher.hxx */,
+				74CE2449216F7ACD006FACD9 /* GenericPidfContents.cxx */,
+				74CE245B216F7ACF006FACD9 /* GenericPidfContents.hxx */,
+				74CE2446216F7ACD006FACD9 /* HEPSipMessageLoggingHandler.cxx */,
+				74CE2447216F7ACD006FACD9 /* HEPSipMessageLoggingHandler.hxx */,
+				74CE2444216F7ACD006FACD9 /* InvokeAfterSocketCreationFunc.hxx */,
+				74CE2442216F7ACC006FACD9 /* PollStatistics.hxx */,
+				74CE2445216F7ACD006FACD9 /* RemoveTransport.hxx */,
+				74CE2452216F7ACE006FACD9 /* SipConfigParse.cxx */,
+				74CE245C216F7ACF006FACD9 /* SipConfigParse.hxx */,
+				74CE245D216F7ACF006FACD9 /* StartLine.hxx */,
+				74CE2456216F7ACE006FACD9 /* TcpConnectState.cxx */,
+				74CE2443216F7ACC006FACD9 /* TcpConnectState.hxx */,
+				74CE244D216F7ACD006FACD9 /* TokenOrQuotedStringCategory.cxx */,
+				74CE244E216F7ACD006FACD9 /* TokenOrQuotedStringCategory.hxx */,
+				74CE245A216F7ACF006FACD9 /* TransactionControllerThread.hxx */,
+				74CE244F216F7ACE006FACD9 /* TransportSelectorThread.hxx */,
+				74CE2450216F7ACE006FACD9 /* TransportThread.cxx */,
+				74CE2458216F7ACE006FACD9 /* TransportThread.hxx */,
+				74CE243D216F7A9A006FACD9 /* DayOfWeekHash.cxx */,
+				74CE243E216F7A9A006FACD9 /* MonthHash.cxx */,
 				F8A057D3124D52BA00112774 /* AbandonServerTransaction.hxx */,
 				F8DB1E1C0C56CE9800853E27 /* Aor.cxx */,
 				F8DB1E1D0C56CE9800853E27 /* Aor.hxx */,
@@ -1862,10 +2085,30 @@
 				F8DB1EC40C56CE9800853E27 /* Via.hxx */,
 				124D7929086CC3CE00BCA5A9 /* WarningCategory.cxx */,
 				F8DB1EC50C56CE9800853E27 /* WarningCategory.hxx */,
+				74CE2416216F7A34006FACD9 /* Worker.hxx */,
+				74CE2415216F7A33006FACD9 /* WorkerThread.cxx */,
+				74CE2420216F7A34006FACD9 /* WorkerThread.hxx */,
+				74CE2417216F7A34006FACD9 /* WsBaseTransport.cxx */,
+				74CE2418216F7A34006FACD9 /* WsBaseTransport.hxx */,
+				74CE2421216F7A35006FACD9 /* WsConnection.cxx */,
+				74CE241C216F7A34006FACD9 /* WsConnection.hxx */,
+				74CE2428216F7A35006FACD9 /* WsConnectionBase.cxx */,
+				74CE241F216F7A34006FACD9 /* WsConnectionBase.hxx */,
+				74CE241E216F7A34006FACD9 /* WsConnectionValidator.hxx */,
+				74CE2423216F7A35006FACD9 /* WsCookieContext.cxx */,
+				74CE2426216F7A35006FACD9 /* WsCookieContext.hxx */,
+				74CE2419216F7A34006FACD9 /* WsCookieContextFactory.hxx */,
+				74CE2422216F7A35006FACD9 /* WsDecorator.cxx */,
+				74CE241A216F7A34006FACD9 /* WsDecorator.hxx */,
+				74CE2424216F7A35006FACD9 /* WsFrameExtractor.cxx */,
+				74CE241B216F7A34006FACD9 /* WsFrameExtractor.hxx */,
+				74CE2425216F7A35006FACD9 /* WsTransport.cxx */,
+				74CE241D216F7A34006FACD9 /* WsTransport.hxx */,
 				F8DB1EC80C56CE9800853E27 /* X509Contents.cxx */,
 				F8DB1EC90C56CE9800853E27 /* X509Contents.hxx */,
 				F8DB1ECA0C56CE9800853E27 /* XMLCursor.cxx */,
 				F8DB1ECB0C56CE9800853E27 /* XMLCursor.hxx */,
+				74CE2427216F7A35006FACD9 /* ZeroOutStatistics.hxx */,
 			);
 			name = resip;
 			sourceTree = "<group>";
@@ -1873,6 +2116,31 @@
 		F8DB1C440C56B50E00853E27 /* rutil */ = {
 			isa = PBXGroup;
 			children = (
+				74CE24CE216F7E9E006FACD9 /* AresCompat.hxx */,
+				74CE2492216F7B31006FACD9 /* AsyncBool.hxx */,
+				74CE2499216F7B32006FACD9 /* CongestionManager.hxx */,
+				74CE249B216F7B32006FACD9 /* ConsumerFifoBuffer.hxx */,
+				74CE248A216F7B31006FACD9 /* DinkyPool.hxx */,
+				74CE24CC216F7E9E006FACD9 /* DnsThread.cxx */,
+				74CE24CD216F7E9E006FACD9 /* DnsThread.hxx */,
+				74CE2484216F7B30006FACD9 /* FdSetIOObserver.hxx */,
+				74CE248E216F7B31006FACD9 /* GeneralCongestionManager.cxx */,
+				74CE248B216F7B31006FACD9 /* GeneralCongestionManager.hxx */,
+				74CE2485216F7B30006FACD9 /* GenericIPAddress.cxx */,
+				74CE2491216F7B31006FACD9 /* KeyValueStore.cxx */,
+				74CE248C216F7B31006FACD9 /* KeyValueStore.hxx */,
+				74CE2495216F7B32006FACD9 /* NetNs.cxx */,
+				74CE2494216F7B32006FACD9 /* NetNs.hxx */,
+				74CE2486216F7B30006FACD9 /* PoolBase.cxx */,
+				74CE2487216F7B30006FACD9 /* PoolBase.hxx */,
+				74CE248F216F7B31006FACD9 /* ProducerFifoBuffer.hxx */,
+				74CE2488216F7B30006FACD9 /* ResipAssert.h */,
+				74CE2493216F7B32006FACD9 /* ServerProcess.cxx */,
+				74CE2489216F7B30006FACD9 /* ServerProcess.hxx */,
+				74CE2496216F7B32006FACD9 /* Sha1.cxx */,
+				74CE2497216F7B32006FACD9 /* Sha1.hxx */,
+				74CE2490216F7B31006FACD9 /* StlPoolAllocator.hxx */,
+				74CE247B216F7B09006FACD9 /* hep */,
 				124D7A29086CC69300BCA5A9 /* AbstractFifo.cxx */,
 				F8DB1D920C56CE1500853E27 /* AbstractFifo.hxx */,
 				F8DB1D930C56CE1500853E27 /* AsyncID.hxx */,
@@ -1885,6 +2153,8 @@
 				F8DB1D970C56CE1500853E27 /* compat.hxx */,
 				124D7A2C086CC69300BCA5A9 /* Condition.cxx */,
 				F8DB1D980C56CE1500853E27 /* Condition.hxx */,
+				74CE2411216F79F1006FACD9 /* ConfigParse.cxx */,
+				74CE2412216F79F2006FACD9 /* ConfigParse.hxx */,
 				124D7A2D086CC69300BCA5A9 /* CountStream.cxx */,
 				F8DB1D990C56CE1500853E27 /* CountStream.hxx */,
 				124D7A2E086CC69300BCA5A9 /* Data.cxx */,
@@ -2009,8 +2279,11 @@
 				F8DB1ED20C56CE9800853E27 /* ApplicationSip.hxx in Headers */,
 				F8DB1E080C56CE3C00853E27 /* AresDns.hxx in Headers */,
 				F8DB1DC40C56CE1500853E27 /* AsyncID.hxx in Headers */,
+				74CE24A4216F7B33006FACD9 /* KeyValueStore.hxx in Headers */,
+				74CE2465216F7ACF006FACD9 /* Dispatcher.hxx in Headers */,
 				F8C76C9D1243CCFF0076CFF8 /* AsyncProcessHandler.hxx in Headers */,
 				F8DB1ED40C56CE9800853E27 /* Auth.hxx in Headers */,
+				74CE243B216F7A35006FACD9 /* ZeroOutStatistics.hxx in Headers */,
 				F8DB1D240C56B9B800853E27 /* BaseCreator.hxx in Headers */,
 				F8DB1DC50C56CE1500853E27 /* BaseException.hxx in Headers */,
 				F8DB1D250C56B9B800853E27 /* BaseSubscription.hxx in Headers */,
@@ -2022,17 +2295,25 @@
 				F8A057DC124D52BA00112774 /* CancelClientInviteTransaction.hxx in Headers */,
 				F8DB1D270C56B9B800853E27 /* CertMessage.hxx in Headers */,
 				F8DB1D290C56B9B800853E27 /* ChallengeInfo.hxx in Headers */,
+				74CE242D216F7A35006FACD9 /* WsCookieContextFactory.hxx in Headers */,
+				74CE242C216F7A35006FACD9 /* WsBaseTransport.hxx in Headers */,
 				F8DB1DC60C56CE1500853E27 /* CircularBuffer.hxx in Headers */,
 				F8A057EF124D52DE00112774 /* ClientAuthExtension.hxx in Headers */,
+				74CE245E216F7ACF006FACD9 /* DialogInfoContents.hxx in Headers */,
 				F8DB1D2A0C56B9B800853E27 /* ClientAuthManager.hxx in Headers */,
 				F8DB1D2B0C56B9B800853E27 /* ClientInviteSession.hxx in Headers */,
+				74CE2432216F7A35006FACD9 /* WsConnectionValidator.hxx in Headers */,
+				74CE246B216F7ACF006FACD9 /* TokenOrQuotedStringCategory.hxx in Headers */,
 				F8DB1D2C0C56B9B800853E27 /* ClientOutOfDialogReq.hxx in Headers */,
 				F8DB1D2D0C56B9B800853E27 /* ClientPagerMessage.hxx in Headers */,
 				F8DB1D2E0C56B9B800853E27 /* ClientPublication.hxx in Headers */,
 				F8DB1D2F0C56B9B800853E27 /* ClientRegistration.hxx in Headers */,
+				74CE245F216F7ACF006FACD9 /* PollStatistics.hxx in Headers */,
 				F8DB1D300C56B9B800853E27 /* ClientSubscription.hxx in Headers */,
+				74CE2462216F7ACF006FACD9 /* RemoveTransport.hxx in Headers */,
 				F8DB1D310C56B9B800853E27 /* ClientSubscriptionFunctor.hxx in Headers */,
 				F8DB1DC70C56CE1500853E27 /* Coders.hxx in Headers */,
+				74CE243A216F7A35006FACD9 /* WsCookieContext.hxx in Headers */,
 				F8DB1DC80C56CE1500853E27 /* compat.hxx in Headers */,
 				F8DB1EDB0C56CE9800853E27 /* Compression.hxx in Headers */,
 				F8DB1DC90C56CE1500853E27 /* Condition.hxx in Headers */,
@@ -2040,30 +2321,37 @@
 				F8DB1EDD0C56CE9800853E27 /* ConnectionBase.hxx in Headers */,
 				F8DB1EDE0C56CE9800853E27 /* ConnectionManager.hxx in Headers */,
 				F8DB1EDF0C56CE9800853E27 /* ConnectionTerminated.hxx in Headers */,
+				74CE2467216F7ACF006FACD9 /* AddTransport.hxx in Headers */,
 				F8DB1D330C56B9B800853E27 /* ContactInstanceRecord.hxx in Headers */,
 				F8DB1EE00C56CE9800853E27 /* Contents.hxx in Headers */,
 				F8DB1EE10C56CE9800853E27 /* ContentsFactory.hxx in Headers */,
 				F8DB1EE20C56CE9800853E27 /* ContentsFactoryBase.hxx in Headers */,
 				F8DB1DCA0C56CE1500853E27 /* CountStream.hxx in Headers */,
+				74CE24BC216F7BD8006FACD9 /* WssTransport.hxx in Headers */,
 				F8DB1EE30C56CE9800853E27 /* CpimContents.hxx in Headers */,
 				F8DB1EE40C56CE9800853E27 /* CSeqCategory.hxx in Headers */,
 				F8DB1DCB0C56CE1500853E27 /* Data.hxx in Headers */,
 				F8C76C9E1243CCFF0076CFF8 /* DataException.hxx in Headers */,
 				F8DB1EE50C56CE9800853E27 /* DataParameter.hxx in Headers */,
 				F8DB1DCC0C56CE1500853E27 /* DataStream.hxx in Headers */,
+				74CE2460216F7ACF006FACD9 /* TcpConnectState.hxx in Headers */,
 				F8DB1EE60C56CE9800853E27 /* DateCategory.hxx in Headers */,
 				F8DB1D340C56B9B800853E27 /* DefaultServerReferHandler.hxx in Headers */,
+				74CE2479216F7ACF006FACD9 /* SipConfigParse.hxx in Headers */,
 				F8DB1EE80C56CE9800853E27 /* DeprecatedDialog.hxx in Headers */,
 				F8DB1D350C56B9B800853E27 /* DestroyUsage.hxx in Headers */,
 				F8DB1D360C56B9B800853E27 /* Dialog.hxx in Headers */,
 				F8DB1D370C56B9B800853E27 /* DialogEventHandler.hxx in Headers */,
+				74CE2430216F7A35006FACD9 /* WsConnection.hxx in Headers */,
 				F8A057F1124D52DE00112774 /* DialogEventInfo.hxx in Headers */,
 				F8A057F3124D52DE00112774 /* DialogEventStateManager.hxx in Headers */,
 				F8DB1D380C56B9B800853E27 /* DialogId.hxx in Headers */,
 				F8DB1D390C56B9B800853E27 /* DialogSet.hxx in Headers */,
+				74CE24A8216F7B33006FACD9 /* StlPoolAllocator.hxx in Headers */,
 				F8DB1D3A0C56B9B800853E27 /* DialogSetHandler.hxx in Headers */,
 				F8DB1D3B0C56B9B800853E27 /* DialogSetId.hxx in Headers */,
 				F8DB1D3C0C56B9B800853E27 /* DialogUsage.hxx in Headers */,
+				74CE24A7216F7B33006FACD9 /* ProducerFifoBuffer.hxx in Headers */,
 				F8DB1D3D0C56B9B800853E27 /* DialogUsageManager.hxx in Headers */,
 				F8C76CA01243CCFF0076CFF8 /* DigestStream.hxx in Headers */,
 				F8DB1E090C56CE3C00853E27 /* DnsAAAARecord.hxx in Headers */,
@@ -2073,7 +2361,10 @@
 				F8DB1EE90C56CE9800853E27 /* DnsInterface.hxx in Headers */,
 				F8DB1E0D0C56CE3C00853E27 /* DnsNaptrRecord.hxx in Headers */,
 				F8DB1E0F0C56CE3C00853E27 /* DnsResourceRecord.hxx in Headers */,
+				74CE24B3216F7B33006FACD9 /* ConsumerFifoBuffer.hxx in Headers */,
 				F8DB1EEA0C56CE9800853E27 /* DnsResult.hxx in Headers */,
+				74CE24AC216F7B33006FACD9 /* NetNs.hxx in Headers */,
+				74CE247A216F7ACF006FACD9 /* StartLine.hxx in Headers */,
 				F8DB1E100C56CE3C00853E27 /* DnsSrvRecord.hxx in Headers */,
 				F8DB1E110C56CE3C00853E27 /* DnsStub.hxx in Headers */,
 				F8DB1DCD0C56CE1500853E27 /* DnsUtil.hxx in Headers */,
@@ -2083,9 +2374,13 @@
 				F8DB1D3F0C56B9B800853E27 /* DumDecrypted.hxx in Headers */,
 				F8DB1D400C56B9B800853E27 /* DumException.hxx in Headers */,
 				F8DB1D410C56B9B800853E27 /* DumFeature.hxx in Headers */,
+				74CE2431216F7A35006FACD9 /* WsTransport.hxx in Headers */,
 				F8DB1D420C56B9B800853E27 /* DumFeatureChain.hxx in Headers */,
+				74CE249C216F7B33006FACD9 /* FdSetIOObserver.hxx in Headers */,
+				74CE2480216F7B0A006FACD9 /* HepAgent.hxx in Headers */,
 				F8DB1D430C56B9B800853E27 /* DumFeatureMessage.hxx in Headers */,
 				F8DB1D450C56B9B800853E27 /* DumHelper.hxx in Headers */,
+				74CE24D1216F7E9E006FACD9 /* AresCompat.hxx in Headers */,
 				F8DB1D460C56B9B800853E27 /* DumProcessHandler.hxx in Headers */,
 				F8DB1D470C56B9B800853E27 /* DumShutdownHandler.hxx in Headers */,
 				F8DB1D490C56B9B800853E27 /* DumThread.hxx in Headers */,
@@ -2100,19 +2395,24 @@
 				F8DB1EF00C56CE9800853E27 /* ExistsParameter.hxx in Headers */,
 				F8DB1EF10C56CE9800853E27 /* ExpiresCategory.hxx in Headers */,
 				F8DB1EF20C56CE9800853E27 /* ExtensionHeader.hxx in Headers */,
+				74CE246E216F7ACF006FACD9 /* BasicDomainMatcher.hxx in Headers */,
 				F8DB1EF30C56CE9800853E27 /* ExtensionParameter.hxx in Headers */,
 				F8DB1EF40C56CE9800853E27 /* ExternalBodyContents.hxx in Headers */,
 				F8DB1E120C56CE3C00853E27 /* ExternalDns.hxx in Headers */,
+				74CE24A0216F7B33006FACD9 /* ResipAssert.h in Headers */,
 				F8DB1E130C56CE3C00853E27 /* ExternalDnsFactory.hxx in Headers */,
 				F8DB1D4E0C56B9B800853E27 /* ExternalMessageBase.hxx in Headers */,
 				F8DB1D4F0C56B9B800853E27 /* ExternalMessageHandler.hxx in Headers */,
+				74CE246C216F7ACF006FACD9 /* TransportSelectorThread.hxx in Headers */,
 				F8DB1D500C56B9B800853E27 /* ExternalTimer.hxx in Headers */,
 				F80A8D4B12B2CA66002D37E0 /* FdPoll.hxx in Headers */,
+				74CE24AA216F7B33006FACD9 /* AsyncBool.hxx in Headers */,
 				F8DB1DCE0C56CE1500853E27 /* Fifo.hxx in Headers */,
 				F8DB1DCF0C56CE1500853E27 /* FileSystem.hxx in Headers */,
 				F8DB1DD00C56CE1500853E27 /* FiniteFifo.hxx in Headers */,
 				F8DB1EF50C56CE9800853E27 /* FloatParameter.hxx in Headers */,
 				F8DB1EF80C56CE9800853E27 /* GenericContents.hxx in Headers */,
+				74CE24D0216F7E9E006FACD9 /* DnsThread.hxx in Headers */,
 				F8DB1DD10C56CE1500853E27 /* GenericIPAddress.hxx in Headers */,
 				F8DB1DD20C56CE1500853E27 /* GenericTimerQueue.hxx in Headers */,
 				F8DB1EF90C56CE9800853E27 /* GenericUri.hxx in Headers */,
@@ -2133,15 +2433,18 @@
 				F8DB1D580C56B9B800853E27 /* HttpProvider.hxx in Headers */,
 				F8DB1D590C56B9B800853E27 /* IdentityHandler.hxx in Headers */,
 				F8DB1D5B0C56B9B800853E27 /* InMemoryRegistrationDatabase.hxx in Headers */,
+				74CE242E216F7A35006FACD9 /* WsDecorator.hxx in Headers */,
 				F8A057F5124D52DE00112774 /* InMemorySyncRegDb.hxx in Headers */,
 				F8DB1DD60C56CE1500853E27 /* Inserter.hxx in Headers */,
 				F8DB1F000C56CE9800853E27 /* IntegerCategory.hxx in Headers */,
 				F8DB1F010C56CE9800853E27 /* IntegerParameter.hxx in Headers */,
+				74CE249F216F7B33006FACD9 /* PoolBase.hxx in Headers */,
 				F8DB1F020C56CE9800853E27 /* InternalTransport.hxx in Headers */,
 				F8A057E0124D52BA00112774 /* InteropHelper.hxx in Headers */,
 				F8DB1F040C56CE9800853E27 /* InterruptableStackThread.hxx in Headers */,
 				F8DB1DD70C56CE1500853E27 /* IntrusiveListElement.hxx in Headers */,
 				F8DB1F060C56CE9800853E27 /* InvalidContents.hxx in Headers */,
+				74CE24A3216F7B33006FACD9 /* GeneralCongestionManager.hxx in Headers */,
 				F8DB1D5C0C56B9B800853E27 /* InviteDialogs.hxx in Headers */,
 				F8DB1D5D0C56B9B800853E27 /* InviteSession.hxx in Headers */,
 				F8DB1D5E0C56B9B800853E27 /* InviteSessionCreator.hxx in Headers */,
@@ -2160,6 +2463,7 @@
 				F8DB1F0B0C56CE9800853E27 /* MarkListener.hxx in Headers */,
 				F8DB1D620C56B9B800853E27 /* MasterProfile.hxx in Headers */,
 				F8DB1DDC0C56CE1500853E27 /* MD5Stream.hxx in Headers */,
+				74CE24C9216F7E8B006FACD9 /* DtmfPayloadContents.hxx in Headers */,
 				F8DB1D630C56B9B800853E27 /* MergedRequestKey.hxx in Headers */,
 				F8DB1D650C56B9B800853E27 /* MergedRequestRemovalCommand.hxx in Headers */,
 				F8DB1F0C0C56CE9800853E27 /* Message.hxx in Headers */,
@@ -2168,13 +2472,17 @@
 				F8DB1F0F0C56CE9800853E27 /* MessageWaitingContents.hxx in Headers */,
 				F8DB1F100C56CE9800853E27 /* MethodHash.hxx in Headers */,
 				F8DB1F110C56CE9800853E27 /* MethodTypes.hxx in Headers */,
+				74CE2433216F7A35006FACD9 /* WsConnectionBase.hxx in Headers */,
 				F8DB1F120C56CE9800853E27 /* Mime.hxx in Headers */,
 				F8DB1F130C56CE9800853E27 /* MsgHeaderScanner.hxx in Headers */,
 				F8DB1F140C56CE9800853E27 /* MultipartAlternativeContents.hxx in Headers */,
+				74CE24BE216F7BD8006FACD9 /* TlsBaseTransport.hxx in Headers */,
 				F8DB1F150C56CE9800853E27 /* MultipartMixedContents.hxx in Headers */,
 				F8DB1F160C56CE9800853E27 /* MultipartRelatedContents.hxx in Headers */,
 				F8DB1F170C56CE9800853E27 /* MultipartSignedContents.hxx in Headers */,
+				74CE2475216F7ACF006FACD9 /* TransportThread.hxx in Headers */,
 				F8DB1DDD0C56CE1500853E27 /* Mutex.hxx in Headers */,
+				74CE24CB216F7E8B006FACD9 /* DnsResultMessage.hxx in Headers */,
 				F8DB1F180C56CE9800853E27 /* NameAddr.hxx in Headers */,
 				F8DB1D660C56B9B800853E27 /* NetworkAssociation.hxx in Headers */,
 				F8DB1F1A0C56CE9800853E27 /* NonceHelper.hxx in Headers */,
@@ -2201,6 +2509,7 @@
 				F8DB1F290C56CE9800853E27 /* Pkcs8Contents.hxx in Headers */,
 				F8DB1F2A0C56CE9800853E27 /* PlainContents.hxx in Headers */,
 				F8DB1DE20C56CE1500853E27 /* Poll.hxx in Headers */,
+				74CE24AF216F7B33006FACD9 /* Sha1.hxx in Headers */,
 				F8DB1D6D0C56B9B800853E27 /* Postable.hxx in Headers */,
 				F8A057E2124D52BA00112774 /* PrivacyCategory.hxx in Headers */,
 				F8DB1D6E0C56B9B800853E27 /* Profile.hxx in Headers */,
@@ -2209,6 +2518,7 @@
 				F8DB1E160C56CE3C00853E27 /* QueryTypes.hxx in Headers */,
 				F8DB1F2C0C56CE9800853E27 /* QuotedDataParameter.hxx in Headers */,
 				F8DB1F2E0C56CE9800853E27 /* QValue.hxx in Headers */,
+				74CE24A2216F7B33006FACD9 /* DinkyPool.hxx in Headers */,
 				F8DB1F300C56CE9800853E27 /* QValueParameter.hxx in Headers */,
 				F8DB1F310C56CE9800853E27 /* RAckCategory.hxx in Headers */,
 				F8C76CA41243CCFF0076CFF8 /* RADIUSDigestAuthenticator.hxx in Headers */,
@@ -2216,13 +2526,16 @@
 				F8DB1DE30C56CE1500853E27 /* Random.hxx in Headers */,
 				F8DB1DE40C56CE1500853E27 /* RecursiveMutex.hxx in Headers */,
 				F8DB1D710C56B9B800853E27 /* RedirectHandler.hxx in Headers */,
+				74CE2476216F7ACF006FACD9 /* Cookie.hxx in Headers */,
 				F8DB1D720C56B9B800853E27 /* RedirectManager.hxx in Headers */,
 				F8DB1D730C56B9B800853E27 /* RefCountedDestroyer.hxx in Headers */,
+				74CE242F216F7A35006FACD9 /* WsFrameExtractor.hxx in Headers */,
 				F8DB1D740C56B9B800853E27 /* RegistrationCreator.hxx in Headers */,
 				F8DB1D750C56B9B800853E27 /* RegistrationHandler.hxx in Headers */,
 				F8DB1D760C56B9B800853E27 /* RegistrationPersistenceManager.hxx in Headers */,
 				F8DB1D770C56B9B800853E27 /* RemoteCertStore.hxx in Headers */,
 				F8DB1F320C56CE9800853E27 /* RequestLine.hxx in Headers */,
+				74CE2464216F7ACF006FACD9 /* HEPSipMessageLoggingHandler.hxx in Headers */,
 				F8F4ED7F133D365D0000D69D /* RequestValidationHandler.hxx in Headers */,
 				F8C76CA61243CCFF0076CFF8 /* resipfaststreams.hxx in Headers */,
 				F8DB1F340C56CE9800853E27 /* Rlmi.hxx in Headers */,
@@ -2232,6 +2545,7 @@
 				F8DB1E190C56CE3C00853E27 /* RRList.hxx in Headers */,
 				F8DB1E1A0C56CE3C00853E27 /* RROverlay.hxx in Headers */,
 				F8DB1E1B0C56CE3C00853E27 /* RRVip.hxx in Headers */,
+				74CE24BB216F7BD8006FACD9 /* WssConnection.hxx in Headers */,
 				F8DB1DE50C56CE1500853E27 /* RWMutex.hxx in Headers */,
 				F8DB1F360C56CE9800853E27 /* SdpContents.hxx in Headers */,
 				F8DB1F370C56CE9800853E27 /* Security.hxx in Headers */,
@@ -2239,6 +2553,7 @@
 				F8DB1F390C56CE9800853E27 /* SecurityTypes.hxx in Headers */,
 				F8DB1F3B0C56CE9800853E27 /* SelectInterruptor.hxx in Headers */,
 				F8DB1F3C0C56CE9800853E27 /* SendData.hxx in Headers */,
+				74CE242A216F7A35006FACD9 /* Worker.hxx in Headers */,
 				F8DB1F3E0C56CE9800853E27 /* SERNonceHelper.hxx in Headers */,
 				F8DB1D780C56B9B800853E27 /* ServerAuthManager.hxx in Headers */,
 				F8DB1D790C56B9B800853E27 /* ServerInviteSession.hxx in Headers */,
@@ -2250,7 +2565,9 @@
 				F8DB1D7F0C56B9B800853E27 /* ServerSubscriptionFunctor.hxx in Headers */,
 				F8DB1DE60C56CE1500853E27 /* SHA1Stream.hxx in Headers */,
 				F8DB1DE70C56CE1500853E27 /* SharedCount.hxx in Headers */,
+				74CE2434216F7A35006FACD9 /* WorkerThread.hxx in Headers */,
 				F8DB1DE80C56CE1500853E27 /* SharedPtr.hxx in Headers */,
+				74CE24B1216F7B33006FACD9 /* CongestionManager.hxx in Headers */,
 				F8DB1F3F0C56CE9800853E27 /* ShutdownMessage.hxx in Headers */,
 				F8DB1F400C56CE9800853E27 /* SipFrag.hxx in Headers */,
 				F8DB1F410C56CE9800853E27 /* SipMessage.hxx in Headers */,
@@ -2279,6 +2596,7 @@
 				F8F4ED7B133D36380000D69D /* TerminateFlow.hxx in Headers */,
 				F8DB1DED0C56CE1500853E27 /* ThreadIf.hxx in Headers */,
 				F8C76CA81243CCFF0076CFF8 /* Time.hxx in Headers */,
+				74CE2474216F7ACF006FACD9 /* ExtendedDomainMatcher.hxx in Headers */,
 				F8DB1F500C56CE9800853E27 /* TimeAccumulate.hxx in Headers */,
 				F8DB1DEE0C56CE1500853E27 /* TimeLimitFifo.hxx in Headers */,
 				F8DB1DEF0C56CE1500853E27 /* Timer.hxx in Headers */,
@@ -2287,9 +2605,11 @@
 				F8DB1F530C56CE9800853E27 /* TlsConnection.hxx in Headers */,
 				F8DB1F540C56CE9800853E27 /* TlsTransport.hxx in Headers */,
 				F8DB1F550C56CE9800853E27 /* Token.hxx in Headers */,
+				74CE2414216F79F2006FACD9 /* ConfigParse.hxx in Headers */,
 				F8DB1F560C56CE9800853E27 /* TransactionController.hxx in Headers */,
 				F8DB1F570C56CE9800853E27 /* TransactionMap.hxx in Headers */,
 				F8DB1F580C56CE9800853E27 /* TransactionMessage.hxx in Headers */,
+				74CE24A1216F7B33006FACD9 /* ServerProcess.hxx in Headers */,
 				F8DB1F590C56CE9800853E27 /* TransactionState.hxx in Headers */,
 				F8DB1F5A0C56CE9800853E27 /* TransactionTerminated.hxx in Headers */,
 				F8DB1F5B0C56CE9800853E27 /* TransactionUser.hxx in Headers */,
@@ -2298,9 +2618,11 @@
 				F8DB1F5E0C56CE9800853E27 /* TransportFailure.hxx in Headers */,
 				F8DB1F5F0C56CE9800853E27 /* TransportSelector.hxx in Headers */,
 				F8DB1DF10C56CE1500853E27 /* TransportType.hxx in Headers */,
+				74CE2461216F7ACF006FACD9 /* InvokeAfterSocketCreationFunc.hxx in Headers */,
 				F8DB1F610C56CE9800853E27 /* TuIM.hxx in Headers */,
 				F8DB1F620C56CE9800853E27 /* Tuple.hxx in Headers */,
 				F8DB1F640C56CE9800853E27 /* TupleMarkManager.hxx in Headers */,
+				74CE2478216F7ACF006FACD9 /* GenericPidfContents.hxx in Headers */,
 				F8DB1F650C56CE9800853E27 /* TuSelector.hxx in Headers */,
 				F8DB1F800C56CEEC00853E27 /* Udp.hxx in Headers */,
 				F8DB1F660C56CE9800853E27 /* UdpTransport.hxx in Headers */,
@@ -2312,9 +2634,11 @@
 				F8DB1F6E0C56CE9800853E27 /* Uri.hxx in Headers */,
 				F8DB1D850C56B9B800853E27 /* UsageUseException.hxx in Headers */,
 				F8DB1D860C56B9B800853E27 /* UserAuthInfo.hxx in Headers */,
+				74CE2481216F7B0A006FACD9 /* ResipHep.hxx in Headers */,
 				F8DB1D870C56B9B800853E27 /* UserProfile.hxx in Headers */,
 				F8DB1F6F0C56CE9800853E27 /* ValueFifo.hxx in Headers */,
 				F8DB1F700C56CE9800853E27 /* Via.hxx in Headers */,
+				74CE2477216F7ACF006FACD9 /* TransactionControllerThread.hxx in Headers */,
 				F8DB1DF20C56CE1500853E27 /* vmd5.hxx in Headers */,
 				F8DB1DF30C56CE1500853E27 /* vthread.hxx in Headers */,
 				F8DB1F710C56CE9800853E27 /* WarningCategory.hxx in Headers */,
@@ -2433,14 +2757,17 @@
 				124D792B086CC3CE00BCA5A9 /* AresDns.cxx in Sources */,
 				124D792C086CC3CE00BCA5A9 /* Auth.cxx in Sources */,
 				124D79F6086CC68200BCA5A9 /* BaseCreator.cxx in Sources */,
+				74CE2435216F7A35006FACD9 /* WsConnection.cxx in Sources */,
 				124D7A45086CC69300BCA5A9 /* BaseException.cxx in Sources */,
 				124D79F7086CC68200BCA5A9 /* BaseSubscription.cxx in Sources */,
 				124D79F8086CC68200BCA5A9 /* BaseUsage.cxx in Sources */,
 				F8DB1ED50C56CE9800853E27 /* BasicNonceHelper.cxx in Sources */,
 				124D792D086CC3CE00BCA5A9 /* BranchParameter.cxx in Sources */,
 				124D792E086CC3CE00BCA5A9 /* CallId.cxx in Sources */,
+				74CE246A216F7ACF006FACD9 /* TokenOrQuotedStringCategory.cxx in Sources */,
 				12BF59580895D7B800F7DD81 /* CertMessage.cxx in Sources */,
 				F8DB1D280C56B9B800853E27 /* ChallengeInfo.cxx in Sources */,
+				74CE2436216F7A35006FACD9 /* WsDecorator.cxx in Sources */,
 				F8A057EE124D52DE00112774 /* ClientAuthExtension.cxx in Sources */,
 				124D79F9086CC68200BCA5A9 /* ClientAuthManager.cxx in Sources */,
 				124D79FA086CC68200BCA5A9 /* ClientInviteSession.cxx in Sources */,
@@ -2464,6 +2791,8 @@
 				124D7A49086CC69300BCA5A9 /* Data.cxx in Sources */,
 				124D7935086CC3CE00BCA5A9 /* DataParameter.cxx in Sources */,
 				124D7A4A086CC69300BCA5A9 /* DataStream.cxx in Sources */,
+				74CE2471216F7ACF006FACD9 /* DialogInfoContents.cxx in Sources */,
+				74CE249E216F7B33006FACD9 /* PoolBase.cxx in Sources */,
 				124D7936086CC3CE00BCA5A9 /* DateCategory.cxx in Sources */,
 				124D7A00086CC68200BCA5A9 /* DefaultServerReferHandler.cxx in Sources */,
 				F8DB1EE70C56CE9800853E27 /* DeprecatedDialog.cxx in Sources */,
@@ -2474,10 +2803,15 @@
 				124D7A03086CC68200BCA5A9 /* DialogId.cxx in Sources */,
 				124D7A04086CC68200BCA5A9 /* DialogSet.cxx in Sources */,
 				124D7A05086CC68200BCA5A9 /* DialogSetId.cxx in Sources */,
+				74CE2469216F7ACF006FACD9 /* Cookie.cxx in Sources */,
 				124D7A06086CC68200BCA5A9 /* DialogUsage.cxx in Sources */,
+				74CE2438216F7A35006FACD9 /* WsFrameExtractor.cxx in Sources */,
 				124D7A07086CC68200BCA5A9 /* DialogUsageManager.cxx in Sources */,
+				74CE2413216F79F2006FACD9 /* ConfigParse.cxx in Sources */,
 				F8C76C9F1243CCFF0076CFF8 /* DigestStream.cxx in Sources */,
+				74CE24AE216F7B33006FACD9 /* Sha1.cxx in Sources */,
 				124D79B2086CC67000BCA5A9 /* DnsAAAARecord.cxx in Sources */,
+				74CE246D216F7ACF006FACD9 /* TransportThread.cxx in Sources */,
 				124D79B3086CC67000BCA5A9 /* DnsCnameRecord.cxx in Sources */,
 				124D79B4086CC67000BCA5A9 /* DnsHostRecord.cxx in Sources */,
 				124D7937086CC3CE00BCA5A9 /* DnsInterface.cxx in Sources */,
@@ -2496,6 +2830,7 @@
 				F8DB1D440C56B9B800853E27 /* DumHelper.cxx in Sources */,
 				124D7A08086CC68200BCA5A9 /* DumProcessHandler.cxx in Sources */,
 				F8DB1D480C56B9B800853E27 /* DumThread.cxx in Sources */,
+				74CE242B216F7A35006FACD9 /* WsBaseTransport.cxx in Sources */,
 				124D7A09086CC68200BCA5A9 /* DumTimeout.cxx in Sources */,
 				124D7939086CC3CE00BCA5A9 /* Embedded.cxx in Sources */,
 				12BF59390895D5E600F7DD81 /* EncryptionManager.cxx in Sources */,
@@ -2512,12 +2847,17 @@
 				124D7A4C086CC69300BCA5A9 /* FileSystem.cxx in Sources */,
 				124D793E086CC3CE00BCA5A9 /* FloatParameter.cxx in Sources */,
 				124D793F086CC3CE00BCA5A9 /* GenericContents.cxx in Sources */,
+				74CE24AB216F7B33006FACD9 /* ServerProcess.cxx in Sources */,
 				124D7940086CC3CE00BCA5A9 /* GenericUri.cxx in Sources */,
 				F8DB1D510C56B9B800853E27 /* Handle.cxx in Sources */,
+				74CE24CA216F7E8B006FACD9 /* DtmfPayloadContents.cxx in Sources */,
 				124D7A0A086CC68200BCA5A9 /* Handled.cxx in Sources */,
+				74CE2468216F7ACF006FACD9 /* ExtendedDomainMatcher.cxx in Sources */,
 				124D7A0B086CC68200BCA5A9 /* HandleException.cxx in Sources */,
 				124D7A0C086CC68200BCA5A9 /* HandleManager.cxx in Sources */,
+				74CE246F216F7ACF006FACD9 /* SipConfigParse.cxx in Sources */,
 				124D7941086CC3CE00BCA5A9 /* HeaderFieldValue.cxx in Sources */,
+				74CE24BF216F7BD8006FACD9 /* WssConnection.cxx in Sources */,
 				124D7942086CC3CE00BCA5A9 /* HeaderFieldValueList.cxx in Sources */,
 				124D7943086CC3CE00BCA5A9 /* HeaderHash.cxx in Sources */,
 				124D7944086CC3CE00BCA5A9 /* Headers.cxx in Sources */,
@@ -2528,7 +2868,9 @@
 				124D7A62086CC77900BCA5A9 /* HttpProvider.cxx in Sources */,
 				123B4D53089871F70049A5B9 /* IdentityHandler.cxx in Sources */,
 				F8DB1D5A0C56B9B800853E27 /* InMemoryRegistrationDatabase.cxx in Sources */,
+				74CE243F216F7A9A006FACD9 /* DayOfWeekHash.cxx in Sources */,
 				F8A057F4124D52DE00112774 /* InMemorySyncRegDb.cxx in Sources */,
+				74CE24A6216F7B33006FACD9 /* GeneralCongestionManager.cxx in Sources */,
 				124D7947086CC3CE00BCA5A9 /* IntegerCategory.cxx in Sources */,
 				124D7948086CC3CE00BCA5A9 /* IntegerParameter.cxx in Sources */,
 				124D7949086CC3CE00BCA5A9 /* InternalTransport.cxx in Sources */,
@@ -2545,10 +2887,13 @@
 				F8DB1E140C56CE3C00853E27 /* LocalDns.cxx in Sources */,
 				124D7A4D086CC69300BCA5A9 /* Lock.cxx in Sources */,
 				124D7A4E086CC69300BCA5A9 /* Log.cxx in Sources */,
+				74CE2440216F7A9A006FACD9 /* MonthHash.cxx in Sources */,
 				124D794C086CC3CE00BCA5A9 /* MacSecurity.cxx in Sources */,
 				F8DB1F0A0C56CE9800853E27 /* makeCert.cxx in Sources */,
 				124D7A13086CC68200BCA5A9 /* MasterProfile.cxx in Sources */,
 				124D7A50086CC69300BCA5A9 /* MD5Stream.cxx in Sources */,
+				74CE24BA216F7BD8006FACD9 /* WssTransport.cxx in Sources */,
+				74CE249D216F7B33006FACD9 /* GenericIPAddress.cxx in Sources */,
 				124D7A10086CC68200BCA5A9 /* MergedRequestKey.cxx in Sources */,
 				F8DB1D640C56B9B800853E27 /* MergedRequestRemovalCommand.cxx in Sources */,
 				124D794D086CC3CE00BCA5A9 /* Message.cxx in Sources */,
@@ -2572,6 +2917,7 @@
 				12396E6A08A2F91E00C5ED5E /* OutgoingEvent.cxx in Sources */,
 				124D7A16086CC68200BCA5A9 /* OutOfDialogReqCreator.cxx in Sources */,
 				124D7A17086CC68200BCA5A9 /* PagerMessageCreator.cxx in Sources */,
+				74CE2466216F7ACF006FACD9 /* GenericPidfContents.cxx in Sources */,
 				124D795A086CC3CE00BCA5A9 /* Parameter.cxx in Sources */,
 				124D795B086CC3CE00BCA5A9 /* ParameterHash.cxx in Sources */,
 				124D795C086CC3CE00BCA5A9 /* ParameterTypes.cxx in Sources */,
@@ -2579,13 +2925,19 @@
 				F8C76CA11243CCFF0076CFF8 /* ParseException.cxx in Sources */,
 				124D795D086CC3CE00BCA5A9 /* ParserCategories.cxx in Sources */,
 				124D795E086CC3CE00BCA5A9 /* ParserCategory.cxx in Sources */,
+				74CE2437216F7A35006FACD9 /* WsCookieContext.cxx in Sources */,
 				12BF59350895D59E00F7DD81 /* ParserContainerBase.cxx in Sources */,
 				F8DB1F250C56CE9800853E27 /* Pidf.cxx in Sources */,
 				124D7960086CC3CE00BCA5A9 /* Pkcs7Contents.cxx in Sources */,
+				74CE24AD216F7B33006FACD9 /* NetNs.cxx in Sources */,
 				F8DB1F280C56CE9800853E27 /* Pkcs8Contents.cxx in Sources */,
+				74CE2473216F7ACF006FACD9 /* TcpConnectState.cxx in Sources */,
 				124D7961086CC3CE00BCA5A9 /* PlainContents.cxx in Sources */,
+				74CE2439216F7A35006FACD9 /* WsTransport.cxx in Sources */,
+				74CE243C216F7A35006FACD9 /* WsConnectionBase.cxx in Sources */,
 				F8DB1DE10C56CE1500853E27 /* Poll.cxx in Sources */,
 				F8A057E1124D52BA00112774 /* PrivacyCategory.cxx in Sources */,
+				74CE24CF216F7E9E006FACD9 /* DnsThread.cxx in Sources */,
 				124D7A18086CC68200BCA5A9 /* Profile.cxx in Sources */,
 				124D7A19086CC68200BCA5A9 /* PublicationCreator.cxx in Sources */,
 				124D79B8086CC67000BCA5A9 /* QueryTypes.cxx in Sources */,
@@ -2595,10 +2947,12 @@
 				124D7964086CC3CE00BCA5A9 /* RAckCategory.cxx in Sources */,
 				F8C76CA31243CCFF0076CFF8 /* RADIUSDigestAuthenticator.cxx in Sources */,
 				F8A057F6124D52DE00112774 /* RADIUSServerAuthManager.cxx in Sources */,
+				74CE2483216F7B0A006FACD9 /* HepAgent.cxx in Sources */,
 				124D7A53086CC69300BCA5A9 /* Random.cxx in Sources */,
 				124D7A54086CC69300BCA5A9 /* RecursiveMutex.cxx in Sources */,
 				124D7A1A086CC68200BCA5A9 /* RedirectManager.cxx in Sources */,
 				124D7A1B086CC68200BCA5A9 /* RegistrationCreator.cxx in Sources */,
+				74CE2429216F7A35006FACD9 /* WorkerThread.cxx in Sources */,
 				F8A057F8124D52DE00112774 /* RegistrationHandler.cxx in Sources */,
 				124D7966086CC3CE00BCA5A9 /* RequestLine.cxx in Sources */,
 				F8C76CA51243CCFF0076CFF8 /* resipfaststreams.cxx in Sources */,
@@ -2617,6 +2971,7 @@
 				124D7A1C086CC68200BCA5A9 /* ServerAuthManager.cxx in Sources */,
 				124D7A1D086CC68200BCA5A9 /* ServerInviteSession.cxx in Sources */,
 				124D7A1E086CC68200BCA5A9 /* ServerOutOfDialogReq.cxx in Sources */,
+				74CE2463216F7ACF006FACD9 /* HEPSipMessageLoggingHandler.cxx in Sources */,
 				124D7A1F086CC68200BCA5A9 /* ServerPagerMessage.cxx in Sources */,
 				124D7A20086CC68200BCA5A9 /* ServerPublication.cxx in Sources */,
 				124D7A21086CC68200BCA5A9 /* ServerRegistration.cxx in Sources */,
@@ -2630,6 +2985,7 @@
 				124D796F086CC3CE00BCA5A9 /* StatelessHandler.cxx in Sources */,
 				F8DB1F450C56CE9800853E27 /* StatisticsHandler.cxx in Sources */,
 				124D7970086CC3CE00BCA5A9 /* StatisticsManager.cxx in Sources */,
+				74CE2472216F7ACF006FACD9 /* Dispatcher.cxx in Sources */,
 				124D7971086CC3CE00BCA5A9 /* StatisticsMessage.cxx in Sources */,
 				124D7972086CC3CE00BCA5A9 /* StatusLine.cxx in Sources */,
 				124D7973086CC3CE00BCA5A9 /* StringCategory.cxx in Sources */,
@@ -2638,10 +2994,12 @@
 				124D7A24086CC68200BCA5A9 /* SubscriptionHandler.cxx in Sources */,
 				124D7A25086CC68200BCA5A9 /* SubscriptionState.cxx in Sources */,
 				124D7A58086CC69300BCA5A9 /* Subsystem.cxx in Sources */,
+				74CE24A9216F7B33006FACD9 /* KeyValueStore.cxx in Sources */,
 				124D7974086CC3CE00BCA5A9 /* Symbols.cxx in Sources */,
 				124D7A59086CC69300BCA5A9 /* SysLogBuf.cxx in Sources */,
 				124D7A5A086CC69300BCA5A9 /* SysLogStream.cxx in Sources */,
 				12396E6C08A2F93400C5ED5E /* TargetCommand.cxx in Sources */,
+				74CE2470216F7ACF006FACD9 /* BasicDomainMatcher.cxx in Sources */,
 				124D7975086CC3CE00BCA5A9 /* TcpBaseTransport.cxx in Sources */,
 				F8A057C7124D47D700112774 /* TcpConnection.cxx in Sources */,
 				124D7977086CC3CE00BCA5A9 /* TcpTransport.cxx in Sources */,
@@ -2662,6 +3020,7 @@
 				124D7982086CC3CE00BCA5A9 /* Transport.cxx in Sources */,
 				124EC468087217600017C8BB /* TransportFailure.cxx in Sources */,
 				124D7983086CC3CE00BCA5A9 /* TransportSelector.cxx in Sources */,
+				74CE2482216F7B0A006FACD9 /* ResipHep.cxx in Sources */,
 				F8DB1DF00C56CE1500853E27 /* TransportType.cxx in Sources */,
 				F8DB1F600C56CE9800853E27 /* TuIM.cxx in Sources */,
 				124D7A5D086CC69300BCA5A9 /* Tuple.cxx in Sources */,
@@ -2673,6 +3032,7 @@
 				F8DB1F690C56CE9800853E27 /* UInt32Parameter.cxx in Sources */,
 				124D7986086CC3CE00BCA5A9 /* UnknownParameter.cxx in Sources */,
 				124D7987086CC3CE00BCA5A9 /* Uri.cxx in Sources */,
+				74CE24BD216F7BD8006FACD9 /* TlsBaseTransport.cxx in Sources */,
 				124D7A27086CC68200BCA5A9 /* UserAuthInfo.cxx in Sources */,
 				124D7A28086CC68200BCA5A9 /* UserProfile.cxx in Sources */,
 				124D7988086CC3CE00BCA5A9 /* Via.cxx in Sources */,
