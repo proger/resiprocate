@@ -2758,9 +2758,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2AAC06E0554671400DB518D /* ares */,
-				12F7972F086CBA1E00AF4EDF /* resiprocate */,
 				F8DB1C860C56B7D800853E27 /* SipDialer */,
+				12F7972F086CBA1E00AF4EDF /* resiprocate */,
+				D2AAC06E0554671400DB518D /* ares */,
 			);
 		};
 /* End PBXProject section */
