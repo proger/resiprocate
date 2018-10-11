@@ -2113,6 +2113,18 @@
 			name = resip;
 			sourceTree = "<group>";
 		};
+		74CE247B216F7B09006FACD9 /* hep */ = {
+			isa = PBXGroup;
+			children = (
+				74CE247C216F7B09006FACD9 /* HepAgent.hxx */,
+				74CE247D216F7B09006FACD9 /* ResipHep.hxx */,
+				74CE247E216F7B09006FACD9 /* ResipHep.cxx */,
+				74CE247F216F7B09006FACD9 /* HepAgent.cxx */,
+			);
+			name = hep;
+			path = ../rutil/hep;
+			sourceTree = "<group>";
+		};
 		F8DB1C440C56B50E00853E27 /* rutil */ = {
 			isa = PBXGroup;
 			children = (
