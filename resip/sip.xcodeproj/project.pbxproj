@@ -2759,7 +2759,6 @@
 		12F79720086CB6D700AF4EDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2767,8 +2766,7 @@
 					"USE_IPV6=1",
 					"USE_ARES=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				SDKROOT = macosx10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares";
 			};
 			name = Debug;
@@ -2776,15 +2774,13 @@
 		12F79721086CB6D700AF4EDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"USE_IPV6=1",
 					"USE_ARES=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				SDKROOT = macosx10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares";
 			};
 			name = Release;
@@ -2838,7 +2834,6 @@
 		F8F4ED62133D351F0000D69D /* SSL-Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2847,8 +2842,7 @@
 					"USE_ARES=1",
 					"USE_SSL=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				SDKROOT = macosx10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares";
 			};
 			name = "SSL-Debug";
@@ -2888,7 +2882,6 @@
 		F8F4ED66133D35220000D69D /* SSL-Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2896,8 +2889,7 @@
 					"USE_ARES=1",
 					"USE_SSL=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				SDKROOT = macosx10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares";
 			};
 			name = "SSL-Release";
