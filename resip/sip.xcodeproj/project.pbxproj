@@ -697,7 +697,7 @@
 		124D78E0086CC3CE00BCA5A9 /* GenericUri.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GenericUri.cxx; path = stack/GenericUri.cxx; sourceTree = "<group>"; };
 		124D78E1086CC3CE00BCA5A9 /* HeaderFieldValue.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = HeaderFieldValue.cxx; path = stack/HeaderFieldValue.cxx; sourceTree = "<group>"; };
 		124D78E2086CC3CE00BCA5A9 /* HeaderFieldValueList.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = HeaderFieldValueList.cxx; path = stack/HeaderFieldValueList.cxx; sourceTree = "<group>"; };
-		124D78E3086CC3CE00BCA5A9 /* HeaderHash.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = HeaderHash.cxx; path = stack/HeaderHash.cxx; sourceTree = "<group>"; };
+		124D78E3086CC3CE00BCA5A9 /* HeaderHash.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = HeaderHash.cxx; path = stack/gen/HeaderHash.cxx; sourceTree = "<group>"; };
 		124D78E4086CC3CE00BCA5A9 /* Headers.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Headers.cxx; path = stack/Headers.cxx; sourceTree = "<group>"; };
 		124D78E5086CC3CE00BCA5A9 /* HeaderTypes.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = HeaderTypes.cxx; path = stack/HeaderTypes.cxx; sourceTree = "<group>"; };
 		124D78E6086CC3CE00BCA5A9 /* Helper.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Helper.cxx; path = stack/Helper.cxx; sourceTree = "<group>"; };
@@ -710,7 +710,7 @@
 		124D78ED086CC3CE00BCA5A9 /* Message.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Message.cxx; path = stack/Message.cxx; sourceTree = "<group>"; };
 		124D78EE086CC3CE00BCA5A9 /* MessageFilterRule.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MessageFilterRule.cxx; path = stack/MessageFilterRule.cxx; sourceTree = "<group>"; };
 		124D78EF086CC3CE00BCA5A9 /* MessageWaitingContents.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MessageWaitingContents.cxx; path = stack/MessageWaitingContents.cxx; sourceTree = "<group>"; };
-		124D78F0086CC3CE00BCA5A9 /* MethodHash.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MethodHash.cxx; path = stack/MethodHash.cxx; sourceTree = "<group>"; };
+		124D78F0086CC3CE00BCA5A9 /* MethodHash.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MethodHash.cxx; path = stack/gen/MethodHash.cxx; sourceTree = "<group>"; };
 		124D78F1086CC3CE00BCA5A9 /* MethodTypes.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MethodTypes.cxx; path = stack/MethodTypes.cxx; sourceTree = "<group>"; };
 		124D78F2086CC3CE00BCA5A9 /* Mime.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Mime.cxx; path = stack/Mime.cxx; sourceTree = "<group>"; };
 		124D78F3086CC3CE00BCA5A9 /* MsgHeaderScanner.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MsgHeaderScanner.cxx; path = stack/MsgHeaderScanner.cxx; sourceTree = "<group>"; };
@@ -721,7 +721,7 @@
 		124D78F8086CC3CE00BCA5A9 /* NameAddr.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = NameAddr.cxx; path = stack/NameAddr.cxx; sourceTree = "<group>"; };
 		124D78F9086CC3CE00BCA5A9 /* OctetContents.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = OctetContents.cxx; path = stack/OctetContents.cxx; sourceTree = "<group>"; };
 		124D78FA086CC3CE00BCA5A9 /* Parameter.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Parameter.cxx; path = stack/Parameter.cxx; sourceTree = "<group>"; };
-		124D78FB086CC3CE00BCA5A9 /* ParameterHash.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = folder; name = ParameterHash.cxx; path = stack/ParameterHash.cxx; sourceTree = "<group>"; };
+		124D78FB086CC3CE00BCA5A9 /* ParameterHash.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ParameterHash.cxx; path = stack/gen/ParameterHash.cxx; sourceTree = "<group>"; };
 		124D78FC086CC3CE00BCA5A9 /* ParameterTypes.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ParameterTypes.cxx; path = stack/ParameterTypes.cxx; sourceTree = "<group>"; };
 		124D78FD086CC3CE00BCA5A9 /* ParserCategories.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ParserCategories.cxx; path = stack/ParserCategories.cxx; sourceTree = "<group>"; };
 		124D78FE086CC3CE00BCA5A9 /* ParserCategory.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ParserCategory.cxx; path = stack/ParserCategory.cxx; sourceTree = "<group>"; };
