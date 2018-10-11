@@ -1459,6 +1459,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74CE24C3216F7CEC006FACD9 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1466,6 +1467,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74CE24C5216F7DF4006FACD9 /* CoreFoundation.framework in Frameworks */,
 				F8DB20A00C56DAD700853E27 /* libcrypto.dylib in Frameworks */,
 				F8DB20A10C56DAD700853E27 /* libssl.dylib in Frameworks */,
 				F8DB20880C56D77100853E27 /* SystemConfiguration.framework in Frameworks */,
@@ -1496,6 +1498,7 @@
 				12F7983E086CBBEC00AF4EDF /* resip */,
 				0867D69AFE84028FC02AAC07 /* Libraries */,
 				034768DDFF38A45A11DB9C8B /* Products */,
+				74CE24C0216F7CD7006FACD9 /* Frameworks */,
 			);
 			name = sip;
 			sourceTree = "<group>";
@@ -2123,6 +2126,14 @@
 			);
 			name = hep;
 			path = ../rutil/hep;
+			sourceTree = "<group>";
+		};
+		74CE24C0216F7CD7006FACD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74CE24C1216F7CD8006FACD9 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F8DB1C440C56B50E00853E27 /* rutil */ = {
